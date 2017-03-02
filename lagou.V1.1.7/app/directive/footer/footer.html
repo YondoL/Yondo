@@ -1,0 +1,26 @@
+<footer>
+  <a ui-sref="homePage">
+  	  <div>
+  	  	 <img src="{{footerImg['/homePage']    [footerImg['/homePage'].isactive]    }}" alt="...">
+  	  </div>
+  	  <p ng-class={true:"active",false:"noActive"}[{{   footerImg['/homePage'].isactive    }}]>首页</p>
+  </a>
+  <a ui-sref="message">
+  	  <div>
+  	  	<img src="{{footerImg['/message'][footerImg['/message'].isactive]}}" alt="...">
+  	  </div>
+  	  <p ng-class={true:"active",false:"noActive"}[{{footerImg['/message'].isactive}}]>消息</p>
+  </a>
+  <a ui-sref="speechHome">
+  	  <div>
+  	  	<img src="{{footerImg['/speechHome'][footerImg['/speechHome'].isactive]}}" alt="...">
+  	  </div>
+  	  <p ng-class={true:"active",false:"noActive"}[{{footerImg['/speechHome'].isactive}}]>言职</p>
+  </a>
+  <a ui-sref="mine">
+  	  <div>
+  	  	<img src="{{footerImg['/mine'][footerImg['/mine'].isactive]}}" alt="...">
+  	  </div>
+  	  <p ng-class={true:"active",false:"noActive"}[{{footerImg['/mine'].isactive}}]>我</p>
+  </a>
+</footer>

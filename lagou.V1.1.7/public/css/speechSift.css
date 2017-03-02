@@ -1,0 +1,128 @@
+/*提个问题*/
+
+/*基本配置项*/
+*{margin :0;padding: 0;}
+html{font-size:20px;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+.speechSift{width: 100%;height: 100vh;background-color:#EBEBEC;overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/*页头*/
+.speechSift header{border-bottom:1px solid #A4A4A5;padding: 1rem 0.925rem;display: flex;justify-content:space-between;font-size: 0.85rem;align-items:center;background-color:#F7F7F7;}
+.speechSift .close{width: 0.75rem;height: 0.75rem;background: url(../images/lagoIMGIMG_0285_03.gif);background-size: 0.75rem;}
+.speechSift .qus{font-weight: bold;}
+/*主体*/
+.speechSift main{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+}
+.speechSift .commentModel{
+	width: 100%;
+	background: white;
+	padding: 1rem;
+	box-sizing: border-box;
+	margin-bottom: .5rem;	
+}
+/*问题*/
+.speechSift .commentModel>a{
+	color: #000;
+	font-weight: bold;
+	font-size: .9rem;
+	font-family: "微软雅黑";
+	display:block;
+	margin:.5rem 0;
+}
+/*回答 callback*/
+.speechSift .callback{
+	width: 100%;
+
+}
+.speechSift .callbackInformation{
+	width: 100%;
+	height:2rem;
+	line-height: 2rem;
+}
+.speechSift .callbacHhead{
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	float: left;
+}
+.speechSift .callbackName{
+	font-size: .8rem;
+	color: #333;
+	margin: 0 1rem 0 .5rem;
+	height: 2rem;
+	float: left;
+	display: inline-block
+}
+.speechSift .position{
+	font-size: .8rem;
+	width: 3.5rem;
+	height: 2rem;
+	color: #d1d1d1;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+
+}
+.speechSift .date{
+	width: 3.5rem;
+	float: right;
+	color: #d1d1d1;
+	font-size: .8rem;
+	height: 2rem;
+	display: inline-block;
+}
+.speechSift .answer{
+	text-indent: 2em;
+	font-size: .8rem;
+	color: #8a8a8a;
+	margin:.5rem 0;
+	width: 100%;
+	height: 2rem;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.speechSift .pt{
+	width: 100%;
+	color: #d1d1d1;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: .8rem;
+}
+.speechSift .praise{
+	width: 2.5rem;
+	height: 1rem;
+	display: inline-block;
+	line-height: 1rem;
+	background: url(../images/speechMain_praise.jpg) no-repeat left center;
+	background-size: .8rem .8rem;
+	margin-right: .5rem;
+	text-indent: 1.5rem;
+}
+.speechSift .tread{
+	width: 2.5rem;
+	height: 1rem;
+	display: inline-block;
+	line-height: 1rem;
+	background: url(../images/speechMain_tread.jpg) no-repeat left bottom;
+	background-size: .8rem .8rem;
+	text-indent: 1.5rem;
+}
+
+
+
+
+
+

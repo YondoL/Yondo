@@ -1,0 +1,60 @@
+/*下边的菜单栏*/
+.areaSelect{
+	display: flex;
+	flex-wrap:wrap;
+	background: #fff;
+	z-index: 11;
+	position: relative;
+}
+.classC{
+	color: green;
+}
+.classD{
+	width:50%;
+	margin: 0 auto;
+	border-bottom:2px solid green; 
+}
+.classE{
+	border-bottom:2px solid transparent; 
+}
+/*左边的地址nav*/
+.areaSelect .selectLeft{
+	width: 30%;
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+	background: #f7f7f7;
+	list-style-type: none;
+
+}
+.areaSelect .selectLeft li{
+	font-size:.7rem; 
+	padding:.6rem;
+}
+/*右边的地址nav*/
+.areaSelect .selectRight{
+	width: 70%;
+	text-align: center;
+	overflow: auto;
+	height: 70vh;
+	list-style-type: none;
+}
+.areaSelect .selectRight li{
+	font-size:.7rem; 
+	padding:.6rem;
+}
+/*下边的切换城市*/
+.changeCity{
+	padding: .5rem;
+	width: 100%;
+	text-align: center;
+	font-size: .78rem;
+}
+.changeCity span{
+	vertical-align: middle;
+	font-size: .8rem;
+}
+.changeCity img{
+	width: 1rem;
+	vertical-align: middle;
+}

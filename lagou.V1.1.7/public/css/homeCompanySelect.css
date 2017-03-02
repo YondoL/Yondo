@@ -1,0 +1,45 @@
+/*公司筛选下的菜单页*/
+.companySelect{
+	padding: .5rem .4rem .4rem .4rem;
+	background: #fff;
+	z-index: 11;
+	position: relative;
+}
+/*菜单页下边的两个小菜单分栏*/
+.companySelect .list{
+	margin-bottom: .4rem;
+}
+.companySelect .list p{
+	font-size: .7rem;
+}
+.companySelect .list>div{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	font-size: .7rem;
+	color: #a3a3a3;
+}
+.companySelect .list li{
+	width: 22%;
+	margin-bottom:.5rem;
+	text-align:center;
+	padding: .4rem 0;
+	border-radius: 3px;
+	border: 1px solid #a3a3a3;
+	list-style-type: none;
+}
+.classA{
+	background: #00b38a;
+	color: white;
+}
+.classB{
+	background: white;
+	color:#a3a3a3;
+}
+.Company_makeSure{
+	background: #00b38a;
+	color: white;
+	text-align: center;
+	padding: .6rem 0;
+	border-radius:3px; 
+}

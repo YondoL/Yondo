@@ -1,0 +1,189 @@
+.searchPage header{
+	height: 2.15rem;
+	background: #f6f6f7;
+	border-bottom: 0.05rem solid #d7d7d9;
+	position: fixed;
+	top: 0;left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.searchPage .place{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.searchPage .place>p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.searchPage .place>p a{
+	font-size: 0.75rem;
+	color: #00b38a;
+	vertical-align: middle;
+}
+.searchPage .place>span{
+	width: 0.4rem;height: 0.8rem; 
+	background: url(../images/left_green.gif) no-repeat;
+	background-size: 0.4rem 0.8rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 0.2rem;
+}
+.searchPage .search{
+	display: inline-block;
+	vertical-align: middle;
+	padding : 0.1rem 0.8rem 0.3rem 0.8rem;
+	border-radius: 0.8rem;
+	background: #e7e8ea;
+    box-sizing : border-box;
+    margin-top:0.275rem;
+    width: 75%; 
+}
+.searchPage .search span {
+	display: inline-block;vertical-align: middle;
+	width: 1rem;height: 1rem;
+	background: url(../images/icon2-sp1.png) no-repeat -0.7rem 0;
+	background-size: 14rem;
+}
+.searchPage .search input {
+	height: 0.8rem;line-height: 0.8rem;
+	vertical-align: middle;
+    font-size: 0.6rem;
+    border: none;outline: 0;
+    background: #e7e8ea;
+    width: 80%;
+}
+.searchPage .cancel{
+	display: inline-block;vertical-align: middle;
+	font-size: 0.75rem;
+	color: #333;
+	line-height: 2rem;
+}
+.searchPage section{
+	position: absolute;top:4.375rem;bottom: 0;
+	width: 100%;
+}
+.searchPage section nav {
+	position: fixed;
+	top: 2.16rem;
+	width: 100%;
+	background: #fff;
+	height: 2.225rem;
+	display: flex;
+	justify-content : space-around;
+	align-items:center;
+	font-size: 0.7rem;
+	border-bottom: 0.05rem solid #d7d7d9;
+	z-index: 100;
+	
+}
+.searchPage section nav p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.searchPage section nav a{
+  color: #333;
+}
+.searchPage section nav span{
+	display: inline-block;width: 0.4rem;height: 0.2rem;
+	background: url(../images/down_black.gif);
+	background-size: 0.4rem;vertical-align: middle;
+}
+/*条件选择  active*/
+/*显示*/
+.searchPage section nav .skipactive span{
+	background: url(../images/up_green.gif);
+	background-size: 0.4rem;
+}
+.searchPage section nav .skipactive p{
+  color:#1ebb97;
+}
+.searchPage section .searchContent {
+	/*display: none;*/
+	overflow: auto;
+	position: absolute;
+}
+.searchPage section .searchContent .list{
+	padding:.4rem 0rem 0 .4rem;
+	display: flex;	
+}
+	/*职位展示的左边*/
+.searchPage section .searchContent .PositionShowLeft{
+	width: 20%;
+	margin-right: .4rem;
+}
+.searchPage section .searchContent .PositionShow_img{
+	width: 100%;
+}
+	/*职位展示的右边*/
+.searchPage section .searchContent .PositionShowRight{
+	border-bottom:1px solid #d8d8d8;
+	flex:1;
+	padding-right:.5rem; 
+}
+.searchContent .PositionShowRight p{
+	position: relative;
+	margin-bottom:.2rem;
+	padding-left:.3rem; 
+}
+.searchContent .PositionShowRight .list1{
+	color: #333333;
+	font-size: .7rem;
+	font-weight: bold;
+}
+.searchContent .PositionShowRight .list1 img{
+	width: .9rem;
+	margin-left: .2rem;
+	margin-bottom:-.22rem;
+}
+.searchContent .PositionShowRight .list1 span{
+	color: #ff7452;
+	font-size: .55rem;
+	font-weight: normal;
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+}
+.searchContent .PositionShowRight .list2{
+	color: #333333;
+	font-size: .6rem;
+}
+.searchContent .PositionShowRight .list3{
+	font-size: .6rem;
+	color: #d8d8d8;
+}
+.searchContent .PositionShowRight .list3 span{
+	position: absolute;
+	right: 0;
+}
+.searchContent .PositionShowRight .list4{
+	font-size: .6rem;
+	color: #d8d8d8;
+	padding-bottom:.4rem; 
+}
+
+/*条件选择内容*/
+/*全部城市*/
+/*下边的菜单栏*/
+.areaWrap{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  position: fixed;
+  z-index: 10;
+  transition: all linear 0.5s;
+  top:4.5rem;
+  left:0;
+  overflow: hidden;
+  }
+.ng-hide {
+  height:0;
+}
+/*  .searchPage .show{
+	transition : top  1s;
+	top: 13.9vh;
+}
+.searchPage .hide{
+	transition : top  1s;
+	top: -86.2vh;
+}*/

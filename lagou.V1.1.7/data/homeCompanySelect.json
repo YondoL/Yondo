@@ -1,0 +1,97 @@
+[
+	{
+		"title":"lists1",
+		"main":[
+			{
+				"name" : "未融资",
+				"status" : false
+			},{
+				"name":"天使轮",
+				"status" : false
+			},{
+				"name":"A轮",
+				"status" : false
+			},{
+				"name":"B轮",
+				"status" : false
+			},{
+				"name":"C轮",
+				"status" :false
+			},{
+				"name":"D轮及以上",
+				"status" : false
+			},{
+				"name":"上市公司",
+				"status" : false
+			},{
+				"name":"不需要融资",
+				"status" : false
+			}
+		]
+	},{
+		"title":"lists2",
+		"main":[
+			{
+				"name" : "不限",
+				"status" : false
+			},{
+				"name":"移动互联网",
+				"status" : false
+			},{
+				"name":"电子商务",
+				"status" : false
+			},{
+				"name":"社交网络",
+				"status" : false
+			},{
+				"name":"企业服务",
+				"status" : false
+			},{
+				"name":"O2O",
+				"status" : false
+			},{
+				"name":"教育",
+				"status" : false
+			},{
+				"name":"游戏",
+				"status" : false
+			},{
+				"name":"金融",
+				"status" : false
+			},{
+				"name":"医疗健康",
+				"status" : false
+			},{
+				"name":"生活服务",
+				"status" : false
+			},{
+				"name":"信息安全",
+				"status" : false
+			},{
+				"name":"数据服务",
+				"status" : false
+			},{
+				"name":"广告营销",
+				"status" : false
+			},{
+				"name":"文化娱乐",
+				"status" : false
+			},{
+				"name":"硬件",
+				"status" : false
+			},{
+				"name":"孙悟空",
+				"status" : false
+			},{
+				"name":"分类信息",
+				"status" : false
+			},{
+				"name":"招聘",
+				"status" : false
+			},{
+				"name":"其它",
+				"status" : false
+			}
+		]
+	}
+]

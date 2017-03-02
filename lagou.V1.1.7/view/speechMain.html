@@ -1,0 +1,155 @@
+
+<!-- speechMain 容器 -->
+	<div class="speechMain">
+		<!-- 头部 -->
+		<header>
+			<a ui-sref="topicSquare" class='left'></a>
+			<p></p>
+			<a ui-sref="myTopicSquare" class="right"></a>
+		</header>
+		<!-- 主体 -->
+		<div class="main">
+			<!--广告栏——轮播图-->
+			<div class="banner">
+				<div class="swiper-container">	
+			        <div class="swiper-wrapper">
+			        	<div class="swiper-slide" ng-repeat="s in sw">
+							<img src="{{s.img}}">
+							<p>{{s.name}}</p>
+						</div>
+		        	</div>
+			       	<!-- 如果需要分页器 -->
+			        <div class="swiper-pagination"></div>
+		    	</div>
+			</div>
+		    	
+		    <!-- 职场精选 sift-->
+		    <div class="sift">
+		    	<a ui-sref="speechSift">
+		    		<span>HOT</span>
+		    		言职精选·刺客的最热内容
+		    	</a>
+		    </div>
+		    <!-- 发言评论板块 -->
+			<div class="comment">
+				<!-- 问题及回答 3组-->
+				<div class="commentModel" ng-repeat="ar in arr1">
+					<!-- 提问 -->
+					<p>
+						一个新问题来自·
+						<span>{{ar.from}}</span>
+					</p>
+					<a href="">
+						{{ar.question}}
+					</a>
+					<!-- 回复信息 callback -->
+					<div class="callback">
+						<div class="callbackInformation">
+							<img src="{{ar.head}}" class="callbacHhead">
+							<span class="callbackName">{{ar.name}}</span>
+							<span class="position">{{ar.position}}</span>
+							<span class="date">{{ar.date}}</span>
+						</div>
+						<a ui-sref="speechCallbackAnswer" class="answer" ng-click="jump(ar)">
+							{{ar.answer}}
+						</a>
+						<div class="pt">
+							<span class="praise">{{ar.praise}}</span>
+							<span class="tread">{{ar.tread}}</span>
+						</div>
+					</div>		
+				</div>
+				
+				<!-- 关注 attention -->
+				<div class="attention">
+					<!-- 关注 更多 -->
+					<p>
+						大家都关注
+						<span>更多</span>
+					</p>
+					<!-- 关注  flexContainer-->
+					<div class="flexContainer">
+		        		<div class="background" >
+		        			<div class="sw-div" ng-repeat="at in att">
+			        			<img src="{{at.img}}">	
+			        			<div class="ptn">
+				        			<p>{{at.name}}</p>
+				        			<div>
+				        				<span>{{at.attentionNum}}</span>+k人关注. <span>{{at.questionNum}}</span>个提问
+				        			</div>
+			        			</div>	
+		        			</div>
+		        		</div>
+					</div>
+				</div>        	
+				<!-- 问题及回答 4组-->
+				<div class="commentModel" ng-repeat="ar in arr2">
+					<!-- 提问 -->
+					<p>
+						一个新问题来自·
+						<span>{{ar.from}}</span>
+					</p>
+					<a href="">
+						{{ar.question}}
+					</a>
+					<!-- 回复信息 callback -->
+					<div class="callback">
+						<div class="callbackInformation">
+							<img src="{{ar.head}}" class="callbacHhead">
+							<span class="callbackName">{{ar.name}}</span>
+							<span class="position">{{ar.position}}</span>
+							<span class="date">{{ar.date}}</span>
+						</div>
+						<a ui-sref="speechCallbackAnswer" class="answer" ng-click="jump(ar)">
+							{{ar.answer}}
+						</a>
+						<div class="pt">
+							<span class="praise">{{ar.praise}}</span>
+							<span class="tread">{{ar.tread}}</span>
+						</div>
+					</div>		
+				</div>	
+
+				<!-- 实力派 图片 imgs -->
+				<div class="imgs">
+					<div></div>
+					
+					<p>实力派 | 联基金邱浩: 他那么冷静，不妨碍他想做疯狂的事情</p>
+				</div>
+				
+				<!-- 问题及回答 3组-->
+				<div class="commentModel" ng-repeat="ar in arr3">
+					<!-- 提问 -->
+					<p>
+						一个新问题来自·
+						<span>{{ar.from}}</span>
+					</p>
+					<a href="">
+						{{ar.question}}
+					</a>
+					<!-- 回复信息 callback -->
+					<div class="callback">
+						<div class="callbackInformation">
+							<img src="{{ar.head}}" class="callbacHhead">
+							<span class="callbackName">{{ar.name}}</span>
+							<span class="position">{{ar.position}}</span>
+							<span class="date">{{ar.date}}</span>
+						</div>
+						<a ui-sref="speechCallbackAnswer" class="answer" ng-click="jump(ar)">
+							{{ar.answer}}
+						</a>
+						<div class="pt">
+							<span class="praise">{{ar.praise}}</span>
+							<span class="tread">{{ar.tread}}</span>
+						</div>
+					</div>		
+				</div>
+		    </div>
+		    
+		</div>
+		<a ui-sref="askQuestion" class="que">
+		    	<span>提问</span>
+		</a>
+		<my-footer></my-footer>
+	</div>
+	

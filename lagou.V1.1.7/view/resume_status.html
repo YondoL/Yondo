@@ -1,0 +1,20 @@
+
+<section class="resume_status" >
+	<header class="resume_status_header">
+		 <a href="#message"><div class="back"></div></a>
+		<div>简历状态</div>
+		</a><div class="right_blank"></div>
+	</header>
+	<main class="resume_status_main" >
+		<ul class="resume_status_ul" >
+			<li ng-repeat="item in main" ng-click="toggle(item)" ng-class="{true:'classR2',false:'classR1'}[item.status]"><a ui-sref="{{item.hear}}">{{item.name}}</a></li>
+			<!-- <li class="resume_status_li">全部</li>
+			<li class="resume_status_li">被查看</li>
+			<li class="resume_status_li">待沟通</li>
+			<li class="resume_status_li">面试</li>
+			<li class="resume_status_li">不合适</li> -->
+		</ul>
+		<!-- <div  ng-include="'resume_status_all.html'"></div> -->
+		<div ui-view></div></div> 
+	</main>
+</section>

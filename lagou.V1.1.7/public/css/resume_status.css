@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 20px;
+}
+/**************header*******************/
+.resume_status_header{
+	height: 2.425rem;
+	font-size: 0.85rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom: 1px solid #a8a8ab;
+}
+.resume_status_header .back{
+	width: 1rem;
+	height: 1rem;
+	background: url(../images/back2.png);
+	background-size: 1rem 1rem;
+	margin-left: 0.5rem;
+}
+.resume_status_header .right_blank{
+	width: 1rem;
+	height: 1rem;
+}
+/***************main********************/
+.resume_status_main{
+	overflow: hidden;	
+}
+.resume_status_ul{
+	list-style-type: none;
+	background: #f6f7f7;
+	height: 1.95rem;
+	display: flex;
+	justify-content:space-around;
+}
+.resume_status_ul li{
+	font-size: 0.75rem;
+	width: 2.5rem;
+	text-align: center;
+	line-height: 1.95rem;
+	
+}
+.resume_status_ul li a{
+	color: black;
+}
+.classR1{
+	border-bottom: 2px solid transparent;
+}
+.classR2{
+	border-bottom: 2px solid green;
+}
+.resume_status_img{
+	width: 7rem;
+	height: 8.75rem;
+	background: url(../images/resume.jpg) no-repeat;
+	background-size: 7rem 8.75rem;
+	background-position: center;
+	margin: 0 auto;
+	margin-top: 4.75rem;
+}
+.no_record{
+	font-size: 0.85rem;
+	color: #999999;
+	text-align: center;
+	margin-top: 2.05rem;	
+}
+.go_find{
+	font-size: 0.85rem;
+	color: #999999;
+	text-align: center;
+	margin-top: 0.9rem;
+}
+

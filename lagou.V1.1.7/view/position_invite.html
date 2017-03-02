@@ -1,0 +1,17 @@
+<section class="resume_status">
+	<header class="resume_status_header">
+		 <a href="#message"><div class="back"></div></a>
+		<div>职位邀请</div>
+		</a><div class="right_blank"></div>
+	</header>
+	<main class="resume_status_main">
+		<ul class="resume_status_ul">
+			<li ng-repeat="item in main" ng-click="toggle(item)" ng-class="{true:'classR2',false:'classR1'}[item.status]">{{item.name}}</li>
+		</ul>
+		<div class="resume_status_img">
+			<!-- <img src="public/images/resume.jpg" alt=""> -->
+		</div>
+		<div class="no_record">暂无记录</div>
+		<div class="go_find">快去寻找你心仪的工作吧</div>
+	</main>
+</section>

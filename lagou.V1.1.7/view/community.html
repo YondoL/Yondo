@@ -1,0 +1,16 @@
+	<section class="community_notice">
+		<header class="community_notice_header">
+			<div class="back" ui-sref="message"></div>
+			<div>言职社区通知</div>
+			<div class="right_blank"></div>
+		</header>
+		<main class="community_notice_main">
+			<ul class="community_notice_ul">
+				<li  class="classGreen" ui-sref="community.communityState" ng-click="toggle($event)">动态</li>
+				<li  ui-sref="community.communityLike" ng-click="toggle($event)">点赞</li>
+			</ul>
+			<div ui-view>
+				
+			</div>
+		</main>
+	</section>

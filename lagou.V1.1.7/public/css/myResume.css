@@ -1,0 +1,58 @@
+.resume_header{
+	height: 2.425rem;
+	font-size: 0.85rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom: 1px solid #a8a8ab;
+}
+.resume_header .back{
+	width: 1rem;
+	height: 1rem;
+	background: url(../images/back2.png);
+	background-size: 1rem 1rem;
+	margin-left: 0.5rem;
+}
+.resume_header .right_blank{
+	width: 1rem;
+	height: 1rem;
+}
+/****************main***********************/
+.resume_main{
+	background: #f0f1f5;
+	overflow: hidden;
+}
+.my_resume{
+	margin-top: 1rem;
+	background: #fff;
+	height: 5rem;
+}
+.resume_online , .resume_attachment{
+	height: 50%;
+	width: 94%;
+	margin:0 3%;
+	line-height:2.5rem;
+	font-size: 0.75rem;
+	display: flex;
+	justify-content:space-between;
+}
+.resume_online{
+	border-bottom: 1px solid #e8e9eb;
+}
+.integrity-message{
+	width: 4.45rem;
+	display: flex;
+	justify-content:space-between;
+	color: #9d9d9d;
+}
+.is_attachment{
+	color: #9d9d9d;
+}
+.resume_default{
+	height: 2.5rem;
+	background: #fff;
+	margin-top: 1rem;
+	font-size: 0.75rem;
+	line-height: 2.5rem;
+	text-indent: 3%;
+}

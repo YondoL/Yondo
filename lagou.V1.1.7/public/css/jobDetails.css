@@ -1,0 +1,310 @@
+.jobDetails header{
+	height:2.2rem;display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0 1rem;
+    background:#f7f7f7;
+    border-bottom: 0.05rem solid #b2b2b2;
+    position: fixed;top: 0;
+    width: 89%;
+    z-index: 2;
+}
+.jobDetails header .left{
+	height: 1rem;width: 0.6rem;
+	background: url(../images/left.gif) no-repeat;
+	background-size: 0.5rem ;
+}
+
+.jobDetails header p{
+	font-size: 0.85rem;
+}
+.jobDetails header .share span{
+	display: inline-block;vertical-align: middle;
+  width: 1.1rem;height: 1.1rem;
+}
+.jobDetails header .share span:first-of-type{
+	background: url(../images/share.gif) no-repeat;
+	background-size: 1rem 1.1rem
+}
+.jobDetails header .share span:last-of-type{
+	background: url(../images/collect.gif) no-repeat;
+	background-size: 1.1rem 1.1rem
+}
+
+.jobDetails section {
+	position: absolute;top: 2.21rem;
+	overflow: auto;
+	background: #f0f1f5;
+	width: 100%;
+	box-sizing : border-box;
+	bottom: 3.75rem;
+	overflow: auto;
+}
+.jobDetails .condition{
+ background:#fff;
+ padding: 0.75rem;
+ padding-bottom: 0;
+ border-bottom:  0.05rem solid #e8e9eb;
+}
+.jobDetails .condition div{
+  margin-top: 0.75rem;
+}
+.jobDetails .condition div h1{
+	display: inline-block;vertical-align: middle;
+	font-size: 0.8rem;color: #333;
+}
+.jobDetails .condition div p{
+   display: inline-block;vertical-align: middle;
+   font-size: 0.7rem;color: #fd5f39;
+}
+.jobDetails .condition ul li{
+	display: inline-block;vertical-align: middle;
+	font-size: 0.75rem;color: #333;
+}
+.jobDetails .condition ul span{
+	width: 0.7rem;height: 0.7rem;
+	display: inline-block;
+}
+.jobDetails .condition ul li:nth-of-type(1) span{
+	background: url(../images/icon-sp2.png) no-repeat -3.5rem -2.1rem;
+	background-size:11.5rem;
+}
+.jobDetails .condition ul li:nth-of-type(2) span{
+	background: url(../images/icon-sp2.png) no-repeat -4.2rem -2.1rem;
+	background-size:11.5rem;
+}
+.jobDetails .condition ul li:nth-of-type(3) span{
+	background: url(../images/icon-sp2.png) no-repeat -4.9rem -2.1rem;
+	background-size:11.5rem;
+}
+.jobDetails .condition ul li:nth-of-type(4) span{
+	background: url(../images/icon-sp2.png) no-repeat -6rem -2.1rem;
+	background-size:12rem;
+}
+.jobDetails .condition p{
+	font-size: 0.625rem;
+	color: #999999;line-height: 1.5rem;
+}
+.jobDetails  section>dl{
+	display: flex;
+	background: #fff;
+	padding:0.725rem 0.75rem;
+}
+.jobDetails  section>dl dt{
+  border:0.05rem solid #999;
+  border-radius: 0.25rem;
+}
+.jobDetails  section>dl dt>img{
+  height: 2.6rem;display: block;
+}
+.jobDetails  section>dl dd{
+	flex:1;
+}
+.jobDetails  section>dl dd>div{
+	width: 80%;height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.5rem;
+}
+.jobDetails  section>dl dd>p{
+	display: inline-block;vertical-align: middle;
+	width: 10%;height: 100%;
+}
+.jobDetails  section dl dd>p>span{
+	display: inline-block;
+	width: 0.7rem;height: 0.7rem;
+	background: url(../images/icon2-sp1.png) no-repeat -1.8rem -13.39rem ;
+	background-size: 15.217rem;
+	margin-top: 1rem;
+}
+
+.jobDetails  section>dl dd h1{
+	font-size: 0.75rem;
+}
+.jobDetails  section>dl dd p{
+	font-size: 0.575rem;
+	color: #a3a3a3;
+}
+.jobDetails .describe{
+   padding:0.75rem;
+   margin-top: 0.65rem;
+   background: #fff;
+ }
+ .jobDetails .header{
+ 	padding-bottom: 0.75rem;
+ 	border-bottom:  0.05rem solid #e8e9eb;
+ }
+ .jobDetails .header>p{
+ 	display: inline-block;vertical-align: middle;
+ 	font-size: 0.8rem;
+ }
+ .jobDetails .header>div{
+ 	display: inline-block;vertical-align: middle;
+ 	width: 0.7rem;height: 0.825rem;
+ 	background: url(../images/discribe.gif) no-repeat;
+ 	background-size: 0.7rem;
+ }
+ .jobDetails .describeContent{
+ 	padding-top: 0.6rem;
+ }
+ .jobDetails .describeContent .label{
+ 	display: inline-block;
+ 	padding:0.2rem 0.5rem;
+ 	border: 0.05rem solid #05b48c;
+ 	color: #05b48c;
+ 	font-size: 0.625rem;
+ 	border-radius: 0.8rem;
+ }
+  .jobDetails .describe{
+  	font-size: 0.65rem;
+   font-weight: normal;
+   color: #6d6d6d;
+  }
+   .jobDetails .describe .characterDescribe{
+   	margin-top: 0.75rem;
+   }
+ .jobDetails .describe .characterDescribe h1{
+   font-size: 0.65rem;
+   font-weight: normal;
+ }
+ .jobDetails .describe .characterDescribe li{
+   line-height: 1rem;
+ }
+.jobDetails .describe .characterDescribe p{
+	margin-top: 1.7rem;
+}
+.jobDetails .address{
+	background: #fff;
+	margin-top: .75rem;
+	font-size: 0.65rem;
+    color: #6d6d6d;
+    padding:0 0.75rem;
+}
+.jobDetails .address>div{
+	padding: 0.7rem 0;
+	border-bottom: 0.05rem solid #e8e9eb;
+}
+.jobDetails .address>div>div{
+   display: inline-block;
+   width: 0.75rem;height: 0.75rem;
+   background: url(../images/icon2-sp1.png) no-repeat -7.35rem -1.85rem;
+   background-size: 19.9rem; 
+}
+.jobDetails .address>div>p{
+  display: inline-block;
+}
+.jobDetails .address>div>span{
+  padding: 0.1rem 0.4rem;
+  background:#ffba0d;
+  font-size: 0.575rem;
+  color: #fff;
+  border-radius: 0.6rem;
+  float: right;
+}
+.jobDetails .address>p{
+	padding: 0.5rem 0;
+}
+.jobDetails .publish{
+	padding: 0.7rem 0.75rem;
+	background: #fff;
+	margin: 0.75rem 0;
+}
+.jobDetails .title{
+	padding-bottom: 0.75rem;
+	border-bottom: 0.05rem solid #e8e9eb;
+}
+.jobDetails .title span{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1rem;
+	height: 1rem;
+}
+.jobDetails .title span img{
+	margin-top: -0.1rem;
+	height: 100%; 
+}
+.jobDetails .title h1{
+	display: inline-block;vertical-align: middle;
+	font-size: 0.8rem;
+	content: #333;font-weight: normal;
+}
+.jobDetails .title{
+	background: #fff;
+}
+.jobDetails .publishPerson{
+	padding: 0.875rem 0;
+}
+.jobDetails .publishPerson>dl{
+	font-size: 0.7rem;display: flex;
+}
+.jobDetails .publishPerson>dl dt{
+    display: inline-block;vertical-align: middle;
+}
+.jobDetails .publishPerson>dl dt>img{
+    height: 2.25rem;
+}
+.jobDetails .publishPerson>dl dd{
+	position: relative;
+	flex:1;
+}
+.jobDetails .publishPerson>dl dd p:nth-of-type(2){
+	content: #666;
+}
+.jobDetails .publishPerson>dl dd div{
+  position: absolute;right: 0;top: 0;
+}
+.jobDetails .publishPerson>dl dd div>span{
+	display: inline-block;vertical-align: middle;
+	width: 0.75rem;height: 0.75rem;
+	background: #cccccc;
+	border-radius: 50%;
+}
+.jobDetails .publishPerson>dl dd div>span img{
+	width: 100%;border-radius: 50%;
+}
+.jobDetails .publishPerson>dl dd div>p{
+	display: inline-block;vertical-align: middle;
+	font-size:0.55rem;color: #666666; 
+}
+.jobDetails .publishPerson>div p{
+   display: inline-block;vertical-align: middle;
+   padding: 0.25rem;
+   background: #ecf9f5;
+   color: #00b38a;
+   font-size: 0.575rem;
+   border-radius: 20%;
+}
+.jobDetails footer{
+	height:3.75rem;
+	position: fixed;
+	bottom: 0;left: 0;
+	width: 100%;
+	padding:0.75rem;
+	box-sizing:border-box;
+	display: flex;
+}
+.jobDetails footer>div{
+	line-height: 2.2rem;
+    font-size: 0.85rem;
+	text-align: center;
+	height: 2.2rem;
+	border:0.05rem solid #0db790;
+	border-radius: 5px;
+}
+.jobDetails footer>div:nth-of-type(1){
+    background: #fff;color: #00b38a;
+    flex-basis:33%;
+}
+.jobDetails footer>div:nth-of-type(2){
+    background: #0db790;color: #fff;
+   flex-basis:63%;
+   margin-left: 0.75rem;
+}
+
+
+
+
+
+
+
+

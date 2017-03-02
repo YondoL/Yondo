@@ -1,0 +1,19 @@
+<div class="companySelectMain">
+	<div class="companySelect" ng-init="">
+		<div class="financing list">
+			<p>融资阶段</p>
+			<div>
+				<li ng-repeat='list in lists1' ng-click = "toggle1(list)" ng-class="{true:'classA',false:'classB'}[list.status]">{{list.name}}</li>
+			</div>
+		</div>
+		<div class="business list">
+			<p>行业领域</p>
+			<div>
+				<li ng-repeat='list in lists2'  ng-click = "toggle2(list)" ng-class="{true:'classA',false:'classB'}[list.status] ">{{list.name}}</li>
+			</div>
+		</div>
+		<div class="Company_makeSure">
+			确定
+		</div>
+	</div>
+</div>

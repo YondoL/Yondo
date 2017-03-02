@@ -1,0 +1,113 @@
+
+	<!-- 我的话题 -->
+	<div class="myTopicSquare">
+		<!-- 页头 -->
+		<header>
+			<span class="back">
+				<a href = "javascript: history.go(-1);">
+					<img src="public/images/icon2-sp1_02.gif" alt="">
+				</a>
+			</span>
+			<span>草稿</span>
+		</header>
+		<!-- 个人信息 -->
+		<section class="myMsg">
+			<div class="circle"></div>
+			<div class="cnnt">
+				<p class="cnntName">Tessasa</p>
+				<p class="cnnt_2">我还没有填写职业信息</p>
+				<p class="cnnt_3">我还没有填写个人介绍</p>
+			</div>
+		</section>
+		<!-- 关注 粉丝 获赞 -->
+		<section class="focus">
+			<div>
+				<p>0</p>
+				<p class="f_1">关注</p>
+			</div>
+			<div>
+				<p>0</p>
+				<p class="f_1">粉丝</p>
+			</div>
+			<div>
+				<p>0</p>
+				<p class="f_1">获赞</p>
+			</div>
+		</section>
+		<!--关注的话题 回答 提问 点赞 -->
+		<section class="focusItems">
+			<dl>
+				<dt class="itemsIcon1">
+					<div>
+						<img src="public/images/lagoIMGIMG_0287_04_03.gif" height="28" width="26" alt=""></div></dt>
+				<dd>
+					<span class="itemsTopic">关注的话题</span>
+					<span class="itemsNum">{{focusNum}}</span>
+					<span class="itemsCnnt">{{focusName}}</span>
+					<span class="itemsNext">></span>
+				</dd>
+			</dl>
+			<dl>
+				<dt class="itemsIcon1">
+					<div>
+						<img src="public/images/lagoIMGIMG_0287_04_07.gif" height="28" width="28" alt=""></div></dt>
+				<dd>
+					<span class="itemsTopic">回答</span>
+					<span class="itemsNum">(3)</span>
+					<span class="itemsCnnt"></span>
+					<span class="itemsNext">></span>
+				</dd>
+			</dl>
+			<dl>
+				<dt class="itemsIcon1">
+					<div>
+						<img src="public/images/lagoIMGIMG_0287_04_10.gif" height="27" width="27" alt=""></div></dt>
+				<dd>
+					<span class="itemsTopic">提问</span>
+					<span class="itemsNum">(3)</span>
+					<span class="itemsCnnt"></span>
+					<span class="itemsNext">></span>
+				</dd>
+			</dl>
+			<dl>
+				<dt class="itemsIcon1">
+					<div>
+						<img src="public/images/lagoIMGIMG_0287_04_13.gif" height="28" width="28" alt=""></div></dt>
+				<dd>
+					<span class="itemsTopic">点赞</span>
+					<span class="itemsNum">(3)</span>
+					<span class="itemsCnnt"></span>
+					<span class="itemsNext">></span>
+
+				</dd>
+			</dl>
+		</section>
+		<!-- 我的动态 -->
+		<section class="myState">
+			<p class="til">我的动态</p>
+			<!-- 关注的话题 -->
+			<div class="pro" ng-repeat ="pro in proList">
+				<span class="focusTopic">关注了话题</span>
+				<span class="time">5分钟前</span>
+				<!-- 内容 -->
+				<div class="cnnt">
+					<div class="cnntImg">
+						<img src= {{pro.logo}} alt="">
+					</div>
+					<div>
+						<p class="cnntTil">{{pro.title}}</p>
+						<span class="cnntLook"></span>
+						<span class="cnntLookNum">{{pro.attentionCount}}</span>
+						<span class="cnntCott"></span>
+						<span class="cnntCottNum">{{pro.answerCount}}</span>
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+		<!-- 没有更多了 -->
+		<section class="noMore">
+			<p>没有更多了</p>
+		</section>
+	</div>

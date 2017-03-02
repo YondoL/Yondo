@@ -1,0 +1,51 @@
+<div class="hotSearch">
+       <header>
+				<div class="place">
+					<p>北京</p>
+					<span></span>
+				</div>
+	            <div class="search">
+	            	<span></span>
+	            	<input type="text" placeholder = "搜索职位/公司/商区" ng-model = "search" ng-keyup="keyup($event)">
+	            </div>
+	            <div class="cancel"><a ui-sref="homePage">取消</a></div>
+	   </header>
+	   <div class="hotSearchMian" ng-show = "isShow">
+		    <section>
+		    	<div class="hot">
+		    		<h1>热门搜索</h1>
+		    		<div>
+		    			<p><a ui-sref="searchPage" ng-click= "addsearchPage">文化娱乐</a></p>
+		    			<p><a ui-sref="searchPage">硬件</a></p>
+		    			<p><a ui-sref="searchPage">移动互联网</a></p>
+		    			<p>java</p>
+		    			<p>android</p>
+		    			<p>ios</p>
+		    			<p>前端</p>
+		    			<p>ui</p>
+		    		</div>
+		    	</div>
+		    	<div class="classifyList">
+		    		 <div ng-repeat = "(key,value) in searchHistory">
+		    		 	<div></div>
+		    		 	<p ng-bind = "value.positionName"></p>
+		    		 	<span></span>
+		    		 </div>
+		    	</div>
+		    	<div class="clear" ng-click = "clearHistory()">
+		    		<p>清空搜索记录</p>
+		    	</div>
+		    </section>
+	   </div> 
+	   <div class="searchPage" ng-hide = "isShow">
+		      <a ui-sref="jobDetails">
+		    	<div ng-repeat = "targetObj in searchData | nameSearch:search:'positionName' | orderBy :'positionName'" ng-click = "searchSkip(targetObj)">
+		    	  <span>
+		    	  	 <img src="public/images/homePage1.png" alt="...">
+		    	  </span>
+	              <p ng-bind = "targetObj.positionName"></p>
+		    	</div>
+		      </a>
+       </div>
+       
+</div>

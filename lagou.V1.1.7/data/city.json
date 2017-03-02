@@ -1,0 +1,1370 @@
+{
+    "content": {
+        "data": {
+            "allCitySearchLabels": {
+                "A": [
+                    {
+                        "name": "鞍山",
+                        "code": "45",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "澳门",
+                        "code": "357",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "安阳",
+                        "code": "171",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "安庆",
+                        "code": "118",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "安康",
+                        "code": "306",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "安顺",
+                        "code": "276",
+                        "isSelected": false
+                    }
+                ],
+                "B": [
+                    {
+                        "name": "北京",
+                        "code": "2",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "保定",
+                        "code": "13",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "包头",
+                        "code": "32",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "蚌埠",
+                        "code": "113",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宝鸡",
+                        "code": "300",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "北海",
+                        "code": "239",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "滨州",
+                        "code": "163",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "亳州",
+                        "code": "125",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "白银",
+                        "code": "318",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "巴中",
+                        "code": "268",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "保山",
+                        "code": "285",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "巴彦淖尔",
+                        "code": "41",
+                        "isSelected": false
+                    }
+                ],
+                "C": [
+                    {
+                        "name": "成都",
+                        "code": "252",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "重庆",
+                        "code": "5",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "长沙",
+                        "code": "198",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "常州",
+                        "code": "87",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "常熟",
+                        "code": "82",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "沧州",
+                        "code": "16",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "朝阳",
+                        "code": "55",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "潮州",
+                        "code": "232",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "常德",
+                        "code": "204",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "承德",
+                        "code": "15",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "郴州",
+                        "code": "207",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "赤峰",
+                        "code": "34",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "滁州",
+                        "code": "120",
+                        "isSelected": false
+                    }
+                ],
+                "D": [
+                    {
+                        "name": "东莞",
+                        "code": "230",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "大连",
+                        "code": "43",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "东营",
+                        "code": "152",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "德州",
+                        "code": "161",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "大庆",
+                        "code": "62",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "德阳",
+                        "code": "256",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "达州",
+                        "code": "266",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "大同",
+                        "code": "20",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "丹东",
+                        "code": "48",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "定西",
+                        "code": "325",
+                        "isSelected": false
+                    }
+                ],
+                "E": [
+                    {
+                        "name": "鄂尔多斯",
+                        "code": "36",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "鄂州",
+                        "code": "189",
+                        "isSelected": false
+                    }
+                ],
+                "F": [
+                    {
+                        "name": "福州",
+                        "code": "128",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "佛山",
+                        "code": "218",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "抚顺",
+                        "code": "46",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "阜阳",
+                        "code": "121",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "防城港",
+                        "code": "240",
+                        "isSelected": false
+                    }
+                ],
+                "G": [
+                    {
+                        "name": "广州",
+                        "code": "213",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "贵阳",
+                        "code": "273",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "桂林",
+                        "code": "237",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "赣州",
+                        "code": "143",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "贵港",
+                        "code": "242",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "固原",
+                        "code": "340",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "广安",
+                        "code": "265",
+                        "isSelected": false
+                    }
+                ],
+                "H": [
+                    {
+                        "name": "杭州",
+                        "code": "6",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "合肥",
+                        "code": "111",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "哈尔滨",
+                        "code": "57",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "惠州",
+                        "code": "224",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "海口",
+                        "code": "249",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "呼和浩特",
+                        "code": "31",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "湖州",
+                        "code": "102",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "邯郸",
+                        "code": "11",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "淮安",
+                        "code": "90",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "衡阳",
+                        "code": "201",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "衡水",
+                        "code": "18",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "淮北",
+                        "code": "116",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "黄冈",
+                        "code": "193",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "汉中",
+                        "code": "304",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "黄石",
+                        "code": "185",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "怀化",
+                        "code": "209",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "菏泽",
+                        "code": "164",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "黄山",
+                        "code": "119",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "淮南",
+                        "code": "114",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "呼伦贝尔",
+                        "code": "37",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "葫芦岛",
+                        "code": "56",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "河源",
+                        "code": "227",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "海东地区",
+                        "code": "330",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "贺州",
+                        "code": "245",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "黑河",
+                        "code": "67",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "海宁",
+                        "code": "100",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "和田",
+                        "code": "348",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "鹤壁",
+                        "code": "172",
+                        "isSelected": false
+                    }
+                ],
+                "J": [
+                    {
+                        "name": "济南",
+                        "code": "148",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "嘉兴",
+                        "code": "101",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "金华",
+                        "code": "104",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "济宁",
+                        "code": "155",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "江门",
+                        "code": "220",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "江阴",
+                        "code": "85",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "九江",
+                        "code": "140",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "吉林",
+                        "code": "71",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "晋中",
+                        "code": "25",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "揭阳",
+                        "code": "233",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "晋城",
+                        "code": "23",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "荆州",
+                        "code": "192",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "焦作",
+                        "code": "174",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "景德镇",
+                        "code": "138",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "吉安",
+                        "code": "144",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "荆门",
+                        "code": "190",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "锦州",
+                        "code": "49",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "酒泉",
+                        "code": "323",
+                        "isSelected": false
+                    }
+                ],
+                "K": [
+                    {
+                        "name": "昆明",
+                        "code": "282",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "昆山",
+                        "code": "81",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "开封",
+                        "code": "168",
+                        "isSelected": false
+                    }
+                ],
+                "L": [
+                    {
+                        "name": "洛阳",
+                        "code": "169",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "临沂",
+                        "code": "160",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "廊坊",
+                        "code": "17",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "兰州",
+                        "code": "315",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "柳州",
+                        "code": "236",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "连云港",
+                        "code": "89",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "龙岩",
+                        "code": "136",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "拉萨",
+                        "code": "308",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "丽江",
+                        "code": "294",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "聊城",
+                        "code": "162",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "丽水",
+                        "code": "108",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "六安",
+                        "code": "124",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "乐山",
+                        "code": "261",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "漯河",
+                        "code": "177",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "临汾",
+                        "code": "28",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "莱芜",
+                        "code": "159",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "辽源",
+                        "code": "73",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "娄底",
+                        "code": "210",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "六盘水",
+                        "code": "274",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "吕梁",
+                        "code": "29",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "辽阳",
+                        "code": "52",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "泸州",
+                        "code": "255",
+                        "isSelected": false
+                    }
+                ],
+                "M": [
+                    {
+                        "name": "绵阳",
+                        "code": "257",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "茂名",
+                        "code": "222",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "马鞍山",
+                        "code": "115",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "眉山",
+                        "code": "263",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "梅州",
+                        "code": "225",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "牡丹江",
+                        "code": "66",
+                        "isSelected": false
+                    }
+                ],
+                "N": [
+                    {
+                        "name": "南京",
+                        "code": "79",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宁波",
+                        "code": "98",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "南昌",
+                        "code": "7",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "南宁",
+                        "code": "235",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "南通",
+                        "code": "88",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "南充",
+                        "code": "262",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "南阳",
+                        "code": "179",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "南平",
+                        "code": "135",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宁德",
+                        "code": "137",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "内江",
+                        "code": "260",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "南海区",
+                        "code": "219",
+                        "isSelected": false
+                    }
+                ],
+                "P": [
+                    {
+                        "name": "莆田",
+                        "code": "130",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "濮阳",
+                        "code": "175",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "盘锦",
+                        "code": "53",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "平顶山",
+                        "code": "170",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "萍乡",
+                        "code": "139",
+                        "isSelected": false
+                    }
+                ],
+                "Q": [
+                    {
+                        "name": "青岛",
+                        "code": "149",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "泉州",
+                        "code": "132",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "秦皇岛",
+                        "code": "10",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "衢州",
+                        "code": "105",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "清远",
+                        "code": "229",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "齐齐哈尔",
+                        "code": "58",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "庆阳",
+                        "code": "324",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "钦州",
+                        "code": "241",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "曲靖",
+                        "code": "283",
+                        "isSelected": false
+                    }
+                ],
+                "R": [
+                    {
+                        "name": "日照",
+                        "code": "158",
+                        "isSelected": false
+                    }
+                ],
+                "S": [
+                    {
+                        "name": "上海",
+                        "code": "3",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "苏州",
+                        "code": "80",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "深圳",
+                        "code": "215",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "沈阳",
+                        "code": "44",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "石家庄",
+                        "code": "8",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "绍兴",
+                        "code": "103",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "汕头",
+                        "code": "217",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "三亚",
+                        "code": "250",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宿迁",
+                        "code": "96",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "商丘",
+                        "code": "180",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "十堰",
+                        "code": "186",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "上饶",
+                        "code": "147",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "三明",
+                        "code": "131",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "韶关",
+                        "code": "214",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "汕尾",
+                        "code": "226",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "随州",
+                        "code": "195",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "三门峡",
+                        "code": "178",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宿州",
+                        "code": "122",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "商洛",
+                        "code": "307",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "遂宁",
+                        "code": "259",
+                        "isSelected": false
+                    }
+                ],
+                "T": [
+                    {
+                        "name": "天津",
+                        "code": "4",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "太原",
+                        "code": "19",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "台州",
+                        "code": "107",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "唐山",
+                        "code": "9",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "泰州",
+                        "code": "94",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "泰安",
+                        "code": "156",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "太仓",
+                        "code": "97",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "铜陵",
+                        "code": "117",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "通辽",
+                        "code": "35",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "天水",
+                        "code": "319",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "通化",
+                        "code": "74",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "台湾",
+                        "code": "358",
+                        "isSelected": false
+                    }
+                ],
+                "W": [
+                    {
+                        "name": "武汉",
+                        "code": "184",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "无锡",
+                        "code": "84",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "温州",
+                        "code": "99",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "潍坊",
+                        "code": "154",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "乌鲁木齐",
+                        "code": "342",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "芜湖",
+                        "code": "112",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "威海",
+                        "code": "157",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "梧州",
+                        "code": "238",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "渭南",
+                        "code": "302",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "乌海",
+                        "code": "33",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "乌兰察布",
+                        "code": "40",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "吴忠",
+                        "code": "339",
+                        "isSelected": false
+                    }
+                ],
+                "X": [
+                    {
+                        "name": "厦门",
+                        "code": "129",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "西安",
+                        "code": "298",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "香港",
+                        "code": "356",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "徐州",
+                        "code": "86",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "新乡",
+                        "code": "173",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "许昌",
+                        "code": "176",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "西宁",
+                        "code": "329",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "湘潭",
+                        "code": "200",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "咸阳",
+                        "code": "301",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "邢台",
+                        "code": "12",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "孝感",
+                        "code": "191",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "襄樊",
+                        "code": "188",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "信阳",
+                        "code": "181",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宣城",
+                        "code": "127",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "忻州",
+                        "code": "27",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "咸宁",
+                        "code": "194",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "新余",
+                        "code": "141",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "襄阳",
+                        "code": "197",
+                        "isSelected": false
+                    }
+                ],
+                "Y": [
+                    {
+                        "name": "烟台",
+                        "code": "153",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "扬州",
+                        "code": "92",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "银川",
+                        "code": "337",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "盐城",
+                        "code": "91",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宜昌",
+                        "code": "187",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宜春",
+                        "code": "145",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "岳阳",
+                        "code": "203",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "运城",
+                        "code": "26",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "阳江",
+                        "code": "228",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "宜宾",
+                        "code": "264",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "营口",
+                        "code": "50",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "益阳",
+                        "code": "206",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "延安",
+                        "code": "303",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "玉林",
+                        "code": "243",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "阳泉",
+                        "code": "21",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "玉溪",
+                        "code": "284",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "永州",
+                        "code": "208",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "榆林",
+                        "code": "305",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "雅安",
+                        "code": "267",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "云浮",
+                        "code": "234",
+                        "isSelected": false
+                    }
+                ],
+                "Z": [
+                    {
+                        "name": "郑州",
+                        "code": "167",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "珠海",
+                        "code": "216",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "中山",
+                        "code": "231",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "长春",
+                        "code": "70",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "淄博",
+                        "code": "150",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "镇江",
+                        "code": "93",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "张家港",
+                        "code": "83",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "肇庆",
+                        "code": "223",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "漳州",
+                        "code": "134",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "湛江",
+                        "code": "221",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "株洲",
+                        "code": "199",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "遵义",
+                        "code": "275",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "舟山",
+                        "code": "106",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "枣庄",
+                        "code": "151",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "自贡",
+                        "code": "253",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "张家口",
+                        "code": "14",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "周口",
+                        "code": "182",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "张家界",
+                        "code": "205",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "长治",
+                        "code": "22",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "驻马店",
+                        "code": "183",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "资阳",
+                        "code": "269",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "张掖",
+                        "code": "321",
+                        "isSelected": false
+                    },
+                    {
+                        "name": "章丘",
+                        "code": "165",
+                        "isSelected": false
+                    }
+                ]
+            }
+        },
+        "rows": []
+    },
+    "message": "success",
+    "state": 1
+}

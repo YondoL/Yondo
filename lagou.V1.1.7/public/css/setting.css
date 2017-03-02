@@ -1,0 +1,33 @@
+/*设置*/
+
+/*基本配置项*/
+*{margin :0;padding: 0;}
+html{font-size:20px;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+.setting{width: 100%;height: 100vh;font-size: 0.8rem;background-color: #F0F1F5;overflow: hidden;}
+/*页头*/
+.setting header{height:2.2rem;border-bottom:0.6px solid #A8A8AB;font-size: 0.8rem;background-color:#F7F7F7;position: relative;width: 100%;}
+.setting .back{width: 0.525rem;height:1rem;background: url(../images/lagoIMGIMG_0286_03.gif);background-size: 0.525rem 1rem;position: absolute;top: 0.6rem;left: 1rem;}
+.setting .set{margin: 0 auto;width: 1.9rem;height: 2.2rem;line-height: 2.2rem;}
+
+/*主体*/
+/*我的账号*/
+.setting main p{margin-top:1rem;height: 2.5rem;line-height: 2.5rem;padding-left: 0.8rem;background-color: white;}
+/*清除缓存 用户协议*/
+.setting main .clear,.setting main .rule{margin-top: 0;}
+.setting main .clear span,.setting main .rule span{display: inline-block;border-top: 1px solid #E8E9EB;width: 30rem;}
+.setting main .quit{ color: #FF8365;text-align: center; }
+
+
+
+
+
+
+
+
+
+
+
+

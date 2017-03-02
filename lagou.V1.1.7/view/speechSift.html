@@ -1,0 +1,35 @@
+<!-- 言职精选 -->
+<div class="speechSift">
+	<!-- 页头 -->
+	<header>
+		<a href="javascript:history.go(-1)" class="close"></a>
+		<div class="qus">言职精选</div>
+		<a href=""></a>
+	</header>
+	<!-- 主体 -->
+	<main>
+		<div class="commentModel" ng-repeat="ar in arr">
+			<!-- 提问 -->
+			<a href="">
+				{{ar.question}}
+			</a>
+			<!-- 回复信息 callback -->
+			<div class="callback">
+				<div class="callbackInformation">
+					<img src="{{ar.head}}" class="callbacHhead">
+					<span class="callbackName">{{ar.name}}</span>
+					<span class="position">{{ar.position}}</span>
+					<span class="date">{{ar.date}}</span>
+				</div>
+				<a ui-sref="speechCallbackAnswer" class="answer" ng-click="jump(ar)">
+					{{ar.answer}}
+				</a>
+				<div class="pt">
+					<span class="praise">{{ar.praise}}</span>
+					<span class="tread">{{ar.tread}}</span>
+				</div>
+			</div>		
+		</div>
+	</main>
+</div>
+

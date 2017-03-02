@@ -1,0 +1,358 @@
+
+.speechMain{
+	width: 100%;
+}
+
+/*头部 header*/
+.speechMain header{
+	width: 100%;
+	padding: .5rem 1rem;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	position: fixed;
+	left: 0;
+	top: -.01rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+}
+.speechMain header .left{
+	background: url(../images/speechMain_header_left.jpg) no-repeat center;
+	background-size: 1.2rem 1.2rem;
+	width:1.5rem;
+	height: 1.5rem;
+}
+.speechMain header p{
+	display: inline-block;
+	background: url(../images/speechLogo.jpg) no-repeat center;
+	background-size: auto 100%;
+	width: 4rem;
+	height: 1.5rem;
+	margin: 0 auto;
+
+}
+.speechMain header .right{
+	font-style: normal;
+	background: url(../images/speechMain_header_right.jpg) no-repeat center;
+	background-size: 1.2rem 1.2rem;
+	width:1.5rem;
+	height: 1.5rem;
+}
+
+/*主体*/
+.speechMain .main{
+	width: 100%;
+	left: 0;
+	position: absolute;
+	top: 2.5rem;
+	bottom: 3rem;
+	background: #f1eeee;
+	margin-bottom: 2rem;
+	/*overflow: auto;*/
+}
+
+/*轮播图--swiper容器*/
+.speechMain .banner{
+	background: white;
+}
+.speechMain .banner.swiper-container{
+    width: 100%;
+    height: 8rem;
+    display: block;
+}
+
+.speechMain .banner .swiper-wrapper{
+	width: 100%;
+}
+.speechMain .banner .swiper-slide{
+	display: block;
+	width: 100%;
+	/*height: 6rem;*/
+}
+.speechMain .banner .swiper-wrapper .swiper-slide img{
+    width: 100%;
+    height: 8rem;
+}
+.speechMain .banner .swiper-slide p{
+	width: 100%;
+	position: absolute;
+	bottom: .25rem;
+	left: 0;
+	height: 2.5rem;
+	background: rgba(0,0,0,.3);
+	font-size:.8rem;
+	color: white;
+	padding-top: .3rem;
+	box-sizing: border-box;
+	text-align: center;
+}
+.speechMain .banner.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom: 1px;
+}
+
+/*职场精选 sift*/
+.speechMain .sift{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	padding:0 0.5rem 0 1rem;
+	box-sizing: border-box;
+	background: white;
+	margin-bottom: .5rem;
+
+}
+.speechMain .sift a{
+	width: 100%;
+	font-size: .8rem;
+	background: url(../images/speechMain_right1.png) no-repeat right center;
+	background-size: auto .6rem;
+	color: black;
+}
+.speechMain .sift a span{
+	width: 2rem;
+	height: 1rem;
+	display: inline-block;
+	background:#ff4e20;
+	color: white; 
+	text-align: center;
+	line-height: 1rem;
+	border-radius: .1rem;
+}
+
+/*发言评论板块*/
+.speechMain .comment{
+	width: 100%;
+	background: #f1eeee;
+
+}
+.speechMain .commentModel{
+	width: 100%;
+	background: white;
+	padding: 1rem;
+	box-sizing: border-box;
+	margin-bottom: .5rem;
+}
+/*问题*/
+.speechMain .commentModel>p{
+	font-size: .7rem;
+	color: #999;
+	margin:0;
+}
+.speechMain .commentModel>p>span{
+	color: #000;
+}
+.speechMain .commentModel>a{
+	color: #000;
+	font-weight: bold;
+	font-size: .9rem;
+	font-family: "微软雅黑";
+	display:block;
+	margin:.5rem 0;
+}
+/*回答 callback*/
+.speechMain .callback{
+	width: 100%;
+
+}
+.speechMain .callbackInformation{
+	width: 100%;
+	height:2rem;
+	line-height: 2rem;
+}
+.speechMain .callbacHhead{
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	float: left;
+}
+.speechMain .callbackName{
+	font-size: .8rem;
+	color: #333;
+	margin: 0 1rem 0 .5rem;
+	height: 2rem;
+	float: left;
+	display: inline-block
+}
+.speechMain .position{
+	font-size: .8rem;
+	width: 3.5rem;
+	height: 2rem;
+	color: #d1d1d1;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+
+}
+.speechMain .date{
+	width: 3.5rem;
+	float: right;
+	color: #d1d1d1;
+	font-size: .8rem;
+	height: 2rem;
+	display: inline-block;
+}
+.speechMain .answer{
+	text-indent: 2em;
+	font-size: .8rem;
+	color: #8a8a8a;
+	margin:.5rem 0;
+	width: 100%;
+	height: 2rem;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.speechMain .pt{
+	width: 100%;
+	color: #d1d1d1;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: .8rem;
+}
+.speechMain .praise{
+	width: 2.5rem;
+	height: 1rem;
+	display: inline-block;
+	line-height: 1rem;
+	background: url(../images/speechMain_praise.jpg) no-repeat left center;
+	background-size: .8rem .8rem;
+	margin-right: .5rem;
+	text-indent: 1.5rem;
+}
+.speechMain .tread{
+	width: 2.5rem;
+	height: 1rem;
+	display: inline-block;
+	line-height: 1rem;
+	background: url(../images/speechMain_tread.jpg) no-repeat left bottom;
+	background-size: .8rem .8rem;
+	text-indent: 1.5rem;
+}
+
+/*关注 attention*/
+.speechMain .attention{
+	width: 100%;
+	height:7rem; 
+	background: white;
+	box-sizing: border-box;
+}
+.speechMain .attention>p{
+	height: 2rem;
+	line-height: 2rem;
+	text-align: left;
+	font-size: .8rem;
+	color: #666;
+	text-indent: 1rem;
+}
+.speechMain .attention>p>span{
+	width:4rem;
+	height: 2rem;
+	text-align: left;
+	line-height: 2rem;
+	float: right;
+	font-size: .8rem;
+	background: url(../images/speechMain_right1.png) no-repeat right center;
+	background-size: auto .6rem;
+}
+
+/*flexContainer 能向左滑动的动态图片*/
+.speechMain .attention .flexContainer{
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+}
+
+.speechMain .attention .background{
+	width: 100%;
+	height: 4rem;
+	margin-right: .1rem;
+	display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.speechMain .attention .sw-div{
+	flex-shrink: 0;
+	height: 100%; 
+	margin-left: .5rem;
+	color: white;
+	font-size: .7rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.speechMain .attention .ptn{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.speechMain .attention .ptn p{
+	font-size: .8rem;
+}
+.speechMain .attention .sw-div>img{
+	width: 7rem;
+	height: 100%;
+	
+}
+
+/*实力派 imgs*/
+.speechMain .imgs{
+	width: 100%;
+	background: white;
+    margin-bottom: .5rem;
+}
+.speechMain .imgs div{
+	width: 100%;
+	height: 10rem;
+	background: url("../images/qiuhao.jpg") no-repeat center;
+	background-size: 100% auto;
+}
+.speechMain .imgs p{
+	width: 100%;
+	margin: 0;
+	padding: 0.5rem 1rem;
+	box-sizing: border-box;
+}
+.speechMain .que{
+	width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+    background-color: #00b38a;
+}
+.speechMain .que span{
+	background: url(../images/speechEdit.png) no-repeat;
+    background-position: center .3rem;
+    background-size: 1.5rem auto;
+    color: white;
+    font-size: .4rem;
+    text-align: center;
+    padding-top: 1.9rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+
+
+
+
+

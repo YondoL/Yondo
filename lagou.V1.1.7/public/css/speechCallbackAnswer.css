@@ -1,0 +1,149 @@
+/*提个问题*/
+
+/*基本配置项*/
+*{margin :0;padding: 0;}
+html{font-size:20px;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+.speechCallbackAnswer{width: 100%;height: 100vh;background-color:#EBEBEC;overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/*页头*/
+.speechCallbackAnswer header{border-bottom:1px solid #A4A4A5;padding: 1rem 0.925rem;display: flex;justify-content:space-between;font-size: 0.85rem;align-items:center;background-color:#F7F7F7;}
+.speechCallbackAnswer .close{width: 0.8rem;height: 0.8rem;background: url(../images/lagoIMGIMG_0286_03.gif) no-repeat;background-size:auto 0.8rem;}
+
+.speechCallbackAnswer .qus{font-weight: bold;}
+/*主体*/
+.speechCallbackAnswer main{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	background: white;
+	height: 100%;
+}
+/*问题*/
+.speechCallbackAnswer nav{
+	border-bottom: 1px solid #999;
+}
+.speechCallbackAnswer nav>a{
+	width: 100%;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.1rem;
+    padding: 0.4rem 1rem;
+    line-height: 1.8rem;
+    box-sizing: border-box;
+	font-family: "微软雅黑";
+	display:block;
+	margin:.5rem 0;
+
+}
+/*回答 callback*/
+.speechCallbackAnswer .callback{
+	width: 100%;
+	overflow: auto;
+	padding: 0 1rem;
+	box-sizing: border-box;
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+}
+.speechCallbackAnswer .callbackInformation{
+	width: 100%;
+	height:2rem;
+	line-height: 2rem;
+}
+.speechCallbackAnswer .callbacHhead{
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	float: left;
+}
+.speechCallbackAnswer .callbackName{
+	font-size: .8rem;
+	color: #333;
+	margin: 0 1rem 0 .5rem;
+	height: 2rem;
+	float: left;
+	display: inline-block
+}
+.speechCallbackAnswer .position{
+	font-size: .8rem;
+	width: 3.5rem;
+	height: 2rem;
+	color: #d1d1d1;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+
+}
+.speechCallbackAnswer .attentionCallback{
+	width: 2.5rem;
+    float: right;
+    color: #00b38a;
+    font-size: .8rem;
+    height: 1.2rem;
+    line-height: 1.1rem;
+    display: inline-block;
+    border-radius: .8rem/.5rem;
+    border: 1px solid #00b38a;
+    text-align: center;
+    margin-top: .4rem;
+}
+.speechCallbackAnswer .answer{
+	text-indent: 2em;
+	font-size: .9rem;
+	color: #333;
+	margin:.5rem 0;
+	width: 100%;
+	line-height: 1.5rem;
+}
+.speechCallbackAnswer .date{
+	font-size: .8rem;
+	width: 3.5rem;
+	height: 2rem;
+	color: #d1d1d1;
+	margin-top: 1.5rem;
+}
+/*评论 点赞*/
+.speechCallbackAnswer .pt{
+	width: 100%;
+	color: #666;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: .8rem;
+	background: #F7F7F7;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.speechCallbackAnswer .praise{
+	width: 49%;
+	height: 1rem;
+	display: inline-block;
+	line-height: 1rem;
+	background: url(../images/speechMain_praise.jpg) no-repeat left 4rem center;
+	background-size: .8rem .8rem;
+	text-align: center;
+	text-indent: 1.5rem;
+	border-left: 1px solid #666;
+}
+.speechCallbackAnswer .tread{
+	width: 49%;
+	height: 1rem;
+	display: inline-block;
+	line-height: 1rem;
+	text-align: center;
+	background: url(../images/speechMain_tread.jpg) no-repeat left 4rem bottom;
+	background-size: .8rem .8rem;
+	text-indent: 1.5rem;
+}
+
+
+
+
+
+

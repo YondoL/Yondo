@@ -1,0 +1,17 @@
+<!-- 产品 -->
+<section ng-repeat="pro in proList">
+	<!-- 图片 -->
+	<div class="proImg">
+		<img src= {{pro.logo}} alt="">
+	</div>
+	<!-- 内容 -->
+	<div class="cnnt">
+		<p class="cnnt_1">{{pro.title}}</p>
+		<span class="cnnt_2"></span>
+		<span class="cnnt_3">{{pro.attentionCount}}</span>
+		<span class="cnnt_4"></span>
+		<span class="cnnt_5">{{pro.answerCount}}</span>
+		<!-- 关注 -->
+		<div ng-class= "{true:'true',false:'false'}[pro.hasConcerned]" ng-click="addFocus(pro)">关注</div>
+	</div>
+</section>	

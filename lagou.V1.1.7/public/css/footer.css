@@ -1,0 +1,38 @@
+footer{
+	height: 2.45rem;
+	background: #fdfdfd;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+	padding-top: 0.45rem;
+	box-sizing:border-box;
+	border-top: 0.05rem solid #b2b2b2;
+	z-index: 1000;
+}
+footer>a{
+	flex:1;
+	color: #a3a3a3;
+	font-size: 0.475rem;
+}
+footer>a>div{
+	margin: 0 auto;
+	width: 1.1rem;
+	height: 1.1rem;
+}
+footer>a>div>img{
+	width: 100%;
+}
+footer>a>p{
+	width: 100%;
+	text-align: center;
+}
+
+footer .active{
+	color: #00B38B;
+}
+footer .noActive{
+	color: #a3a3a3;
+}

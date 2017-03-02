@@ -1,0 +1,129 @@
+/*body{
+	background: #f0f1f5;
+}*/
+.mine{
+	width: 100%;
+	background: #f0f1f5;
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	bottom: 2.45rem;
+	overflow: auto;
+}
+
+/*头部 header*/
+.mine header{
+	height: 10rem;
+	width: 100%;
+	background: url("../images/mine_logo_bg.jpg") no-repeat center;
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: .8rem;
+	color: white;
+}
+.mine .edit{
+	width: 2.8rem;
+    height: 1.3rem;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background: url("../images/edit.jpg") no-repeat center;
+	background-size:100% 100%;
+}
+.mine header .headImg{
+	width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;
+	background: url("../images/mine_logo.jpg") no-repeat center;
+	background-size: 3.5rem 3.5rem;
+	
+}
+.mine header span{
+	margin: .5rem 0;
+}
+
+/*主体 main*/
+.mine {
+	width: 100%;
+
+}
+
+.mine ul{
+	background: white;
+	padding-left: 1rem;
+	box-sizing: border-box;
+	font-size: .6rem;
+	margin: 0;
+}
+.mine li{
+	height: 2.6rem;
+	line-height: 2.6rem;
+	border-bottom: 1px solid #b6b6b7;
+	padding: 0 .5rem 0 1.7rem;
+	box-sizing: border-box;
+}
+.mine .resume{
+	background: url(../images/mine_main1.jpg) no-repeat left center;
+	background-size: auto 30%;
+	 position: relative;
+}
+.mine .resume  p span{
+	color: #7fd8c4;
+}
+.mine .PLUS{
+	background: url(../images/mine_main2.jpg) no-repeat left center;
+	background-size: auto 30%;
+	border-bottom:none;
+	
+}
+.mine .PLUS p{
+	color: #7fd8c4;
+	background: url(../images/speechMain_right1.png) no-repeat right center;
+	background-size:1.5rem 1rem;
+}
+.mine .resume p{
+	background: none;
+}
+.mine li p{
+	width: 7rem;
+	float: right;
+	margin: 0;
+	/**/
+	background-position: right -.1rem center;
+	background-size: auto .8rem;
+    text-align: center;
+    height: 100%;
+   
+}
+/*向右图标*/
+.mine li .backNext{
+	display: inline-block;
+	background: url(../images/speechMain_right1.png) no-repeat right center;
+	background-size:1.5rem 1rem;
+	width: 100%;
+}
+
+.mine #secUl{
+	margin-top: .5rem;
+}
+.mine #secUl li:nth-child(1){
+	background: url(../images/mine_main3.jpg) no-repeat left center;
+	background-size: auto 30%;
+}
+.mine #secUl li:nth-child(2){
+	background: url(../images/mine_main4.jpg) no-repeat left center;
+	background-size: auto 30%;
+}
+.mine #secUl li:nth-child(3){
+	background: url(../images/mine_main5.jpg) no-repeat left center;
+	background-size: auto 30%;
+	border-bottom:none;
+}
+
+
+
+
+

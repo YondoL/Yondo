@@ -1,0 +1,123 @@
+.filterContent{
+	background: #fff;
+	height: 100%;
+	padding-top: 1rem;
+}
+.range{
+	height: 6.5rem;
+	font-size: 0.7rem;
+}
+/*******************工作经验*********************/
+.experience{
+	width: 97%;
+	margin-left: 3%;
+	font-size: 0.65rem;
+}
+.short_years{
+	margin-top: 0.525rem;
+	width: 97%;
+	display: flex;
+	justify-content:space-between;
+}
+.short_years>span{
+	width: 3.875rem;
+	height: 1.35rem;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 1.35rem;
+}
+.long_years{
+	margin-top: 0.75rem;
+	width: 97%;
+	display: flex;
+	justify-content:space-between;	
+}
+.long_years>span{
+	width: 3.875rem;
+	height: 1.35rem;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 1.35rem;
+}
+.long_years>div{
+	width: 3.875rem;
+	height: 1.35rem;
+}
+
+/**********************学历要求*****************************/
+.degree{
+	width: 97%;
+	margin-left: 3%;
+	font-size: 0.65rem;
+	margin-top: 1.5rem;
+}
+.College_above{
+	margin-top: 0.525rem;
+	width: 97%;
+	display: flex;
+	justify-content:space-between;
+}
+.College_above>span{
+	width: 3.875rem;
+	height: 1.35rem;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 1.35rem;
+}
+.no_require{
+	margin-top: 0.75rem;
+	width: 97%;
+	display: flex;
+	justify-content:space-between;	
+}
+.no_require>span{
+	width: 3.875rem;
+	height: 1.35rem;
+	text-align: center;
+	line-height: 1.35rem;
+}
+.no_require>div{
+	width: 3.875rem;
+	height: 1.35rem;	
+}
+.no_require>span:nth-of-type(1){
+	border: 1px solid #cccccc;
+}
+
+
+/*********************工作性质************************/
+.job{
+	width: 97%;
+	margin-left: 3%;
+	font-size: 0.65rem;
+	margin-top: 1.5rem;
+}
+.jobs{
+	margin-top: 0.525rem;
+	width: 97%;
+	display: flex;
+	justify-content:space-between;
+}
+.jobs>span{
+	width: 3.875rem;
+	height: 1.35rem;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 1.35rem;
+}
+.jobs>div{
+	width: 3.875rem;
+	height: 1.35rem;
+}
+/*********************确定***************************/
+.yes{
+	width: 92%;
+	height:2.2rem;
+	background: #00b38a;
+	color: #fff;
+	font-size: 0.75rem;
+	margin: 0 auto;
+	margin-top: 2.25rem;
+	text-align: center;
+	line-height: 2.2rem;
+}

@@ -1,0 +1,134 @@
+.homePage{
+	position: absolute;top: 0;
+	bottom: 2.45rem;
+	overflow: auto;
+	width: 100%;
+}
+
+/*头部的搜索框*/
+ .homePageHeader{
+	padding-right:5%; 
+	padding-top:.85rem;
+	padding-bottom:.2rem;
+	padding-left:5%;
+	height: 2rem;
+	width: 90%;
+	background:rgba(0,196,111,0);
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	position: fixed;
+	z-index: 10;
+	transition : background 3s;
+}
+.homePage .headerActive{
+	background:rgba(0,196,111,1);
+
+}
+.homePage .headerActive input{
+	transition : background 3s;
+	background: #00b38a;
+}
+.homePage .homePageHeader input{
+	outline: 0;
+	margin:0 auto;
+	width: 50%;
+	height: 70%;
+	border: none;
+	border-radius: .7rem;
+	text-align: center;
+	font-size: .65rem;
+	padding: 0 30%;
+}
+.homePage .homePageHeader span{
+	position: absolute;
+	top: 46%;
+	left: 25%;
+}
+.homePage .homePageHeader span img{
+	width: 1rem;
+}
+/*轮播图部分*/
+.homePage .swiper-container{
+	position: relative;
+	background: #fff;
+	height: 8.5rem;
+}
+.homePage .swiper-container img{
+	width: 100%;
+	height: 8.5rem;
+}
+/*自己的配置*/
+.homePage .swiper-container .myclass{
+	width: 0.25rem;height: 0.25rem;
+}
+.homePage .swiper-container .swiper-pagination-bullet-active{
+	width: 0.3rem;height: 0.25rem;
+	border-radius: 40%;
+	background: #fff;
+}
+/*下边的工作职位展示*/
+.homePage .homePagePositionShow{
+	overflow: auto;
+}
+.homePage .homePagePositionShow .list{
+	padding:.4rem 0rem 0 .4rem;
+	display: flex;	
+}
+	/*职位展示的左边*/
+.homePage .homePagePositionShow .PositionShowLeft{
+	width: 20%;
+	margin-right: .4rem;
+}
+.homePage .homePagePositionShow .PositionShow_img{
+	width: 100%;
+}
+	/*职位展示的右边*/
+/*.homePage .homePagePositionShow>a{
+  color: #d8d8d8;
+}*/	
+.homePage .homePagePositionShow .PositionShowRight{
+	border-bottom:1px solid #d8d8d8;
+	flex:1;
+	padding-right:.5rem; 
+}
+.homePage .PositionShowRight p{
+	position: relative;
+	margin-bottom:.2rem;
+	padding-left:.3rem; 
+}
+.homePage .PositionShowRight .list1{
+	color: #333333;
+	font-size: .7rem;
+	font-weight: bold;
+}
+.homePage .PositionShowRight .list1 img{
+	width: .9rem;
+	margin-left: .2rem;
+	margin-bottom:-.22rem;
+}
+.homePage .PositionShowRight .list1 span{
+	color: #ff7452;
+	font-size: .55rem;
+	font-weight: normal;
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+}
+.homePage .PositionShowRight .list2{
+	font-size: .6rem;
+	color: #333333;
+}
+.homePage .PositionShowRight .list3{
+	font-size: .6rem;
+	color: #d8d8d8;
+}
+.homePage .PositionShowRight .list3 span{
+	position: absolute;
+	right: 0;
+}
+.homePage .PositionShowRight .list4{
+	font-size: .6rem;
+	color: #d8d8d8;
+	padding-bottom:.4rem; 
+}

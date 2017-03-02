@@ -1,0 +1,37 @@
+
+	<div class="mine">
+	<!-- 头部 header -->
+		<header>
+			<p class="headImg"></p>
+			<span>权志龙</span>
+			<p>我还没有写个人介绍</p>
+			<p class="edit"></p>
+		</header>
+	<!-- 主体 main -->
+		<main>
+		<!-- 第一部分 简历和PLUS -->
+			<ul>
+				<li class="resume" ui-sref="myResume">
+					<span>简历</span>
+					<p>完整度: <span>63%</span></p>
+				</li>
+				<li class="PLUS">
+					<span>PLUS</span>
+					<p>未开启</p>
+				</li>
+			</ul>
+		<!-- 第二部分 收藏、意见反馈、设置 -->
+			<ul id="secUl">
+				<li  ui-sref="myCollection">
+					<span class="backNext">收藏</span>
+				</li>
+				<li class="backNext">
+					<span class="backNext">意见反馈</span>
+				</li>
+				<li ui-sref="setting">
+					<span class="backNext">设置</span>
+				</li>
+			</ul>
+		</main>
+		<my-footer></my-footer>
+	</div>

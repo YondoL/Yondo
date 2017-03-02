@@ -1,0 +1,124 @@
+a{
+	color:#a5a5a5;
+}
+.message {
+	position: absolute;
+	top: 0;left: 0;
+	bottom: 2.45rem;
+	width: 100%;
+	overflow: auto;
+	background: #f0f1f5;
+}
+/*消息列表的头部*/
+.message .messageHeader{
+	padding: 1.2rem 0 .5rem 0;
+	background: #f8f8f8;
+	text-align: center;
+	font-size: .9rem;
+	border-bottom: 1px solid #b2b2b2;
+}
+/*下边的内容*/
+.message .messageMain{
+	background: #f8f8f8;
+	/*height: 100%;*/
+}
+/*三个小nav*/
+.message .messageNav{
+	background: white;
+	height: 3.3rem;
+	box-sibling:border-box;
+	margin-bottom: .5rem;
+	padding:.5rem;
+	font-size: .5rem;
+	color:#a5a5a5;
+	display: flex;
+	justify-content:space-around;
+}
+.message .messageNav>div{
+	display: flex;
+	flex-direction:column;
+
+}
+/*三个小nav的点击图*/
+.message .messageNav .img_{
+	margin:  0 auto;
+	width: 2rem;
+	height:2rem;
+	background:url(../images/message1.gif);
+	background-size:auto 2rem;
+	margin-bottom: .3rem;
+}
+.message .messageNav .list1 .img_{
+	background-position: -1.73rem;
+}
+.message .messageNav .list2 .img_{
+	background-position: -7.17rem;
+}
+.message .messageNav .list3 .img_{
+	background-position: -12.6rem;
+}
+/*下边的两条内容*/
+.message .messageNav2{
+	padding-top:.4rem;
+	background: white;
+}
+.message .messageNav2 .list{
+	padding:.3rem 0;
+	display: flex;
+	position: relative;
+}
+.messageNav2 .list1 .mian2{
+	padding-bottom:.3rem;
+	flex:1;
+	border-bottom:1px solid #a5a5a5;
+}
+.message .messageNav2 .img_{
+	width: 2rem;
+	height:2rem;
+	background:url(../images/message2.gif);
+	background-size:3rem auto;
+	margin-left: .3rem;
+	margin-right:.6rem;
+}
+.message .messageNav2 .list1 .img_{
+	background-position: -.5rem -.6rem;
+}
+.message .messageNav2 .list2{
+	padding-bottom: 0.45rem;
+}
+.message .messageNav2 .list2 .img_{
+	background-position: -.5rem -3.7rem;
+}
+.message .messageNav2 .mian2 p:first-child{
+	font-size: .75rem;
+	font-weight: bold;
+	margin-bottom: .2rem;
+	color: black;
+}
+.message .messageNav2 .mian2 p:nth-child(2){
+	font-size: .6rem;
+	color:#a5a5a5;
+}
+.message .messageNav2 .mian2 span{
+	font-size: .6rem;
+	color: #a5a5a5;
+	position: absolute;
+	top: .5rem;
+	right: .5rem;
+}
+/*随便加的商城*/
+.Yondo{
+	margin-top: .4rem;
+}
+.Yondo .list1 .mian2{
+	border:none;
+}
+ .message .Yondo .list1 .img_{
+	width: 2rem;
+	height:2rem;
+	background:url(../images/8780.png);
+	background-size:3rem auto;
+	margin-left: .3rem;
+	margin-right:.6rem;
+	background-position:-.42rem -.17rem;
+}

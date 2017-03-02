@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+}
+html{
+	font-size: 20px;
+}
+/**************header******************/
+.community_notice_header{
+	height: 2.425rem;
+	font-size: 0.85rem;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom: 1px solid #a8a8ab;
+}
+.community_notice_header .back{
+	width: 1rem;
+	height: 1rem;
+	background: url(../images/back2.png);
+	background-size: 1rem 1rem;
+	margin-left: 0.5rem;
+}
+.community_notice_header .right_blank{
+	width: 1rem;
+	height: 1rem;
+}
+/******************main*********************/
+.community_notice_main{
+	overflow: hidden;
+}
+.community_notice_ul{
+	list-style-type: none;
+	height: 1.95rem;
+	display: flex;
+	border-bottom: 1px solid #e8e9eb;
+	justify-content: space-around;
+	align-items:center;
+}
+.community_notice_ul > li{
+	font-size: 0.75rem;
+	height: 1rem;
+	width: 48%;
+	line-height: 1rem;
+	text-align: center;
+}
+.community_notice_ul > li:first-of-type{
+	border-right: 1px solid #e8e9eb;
+}
+
+
+/*动态*/
+.community_notice_img{
+	width: 3.75rem;
+	height: 3.4rem;
+	background: url(../images/message.jpg) no-repeat;
+	background-size: 3.75rem 3.4rem;
+	background-position: center;
+	margin: 0 auto;
+	margin-top: 8.5rem;
+}
+.community_status{
+	margin: 0 auto;
+	margin-top: 1.65rem;
+	font-size: 0.85rem;
+	color: #999999;
+	text-align: center;
+}
+/*点赞*/
+.zan_img{
+	width: 2.625rem;
+	height: 3.6rem;
+	background: url(../images/zan.jpg) no-repeat;
+	background-size: 2.625rem 3.6rem;
+	background-position: center;
+	margin: 0 auto;
+	margin-top: 8.4rem;
+}
+.zan_status{
+	margin: 0 auto;
+	margin-top: 1.5rem;
+	font-size: 0.85rem;
+	color: #999999;
+	text-align: center;
+}
+.jiayou{
+	margin: 0 auto;
+	font-size: 0.85rem;
+	color: #999999;
+	text-align: center;	
+}
+
+
+.classGreen{
+	color: #00b38a;
+}

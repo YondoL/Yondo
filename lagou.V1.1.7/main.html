@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" ng-app="lagou" ng-controller = "mainController">
+<head >
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>拉勾</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src = "public/js/angular.min.js"></script>
+	<script type="text/javascript" src = "public/js/angular-animate.js"></script>
+	<script type="text/javascript" src = "public/js/angular-ui-router.js"></script>
+	<script type="text/javascript" src = "public/js/angular-css.js"></script>
+	<script type="text/javascript" src = "public/js/swiper-3.3.1.min.js"></script>
+
+</head>
+
+<!-- 引入主路由 -->
+<script type="text/javascript" src="mainRoute.js"></script>
+<script type="text/javascript" src="mainController.js"></script>
+<!-- 引入每个模块的 js 文件 -->
+<!-- 引入footer模块 -->
+<script type="text/javascript" src="app/directive/footer/footer.js"></script>
+<script type="text/javascript" src="app/controller/footerController.js"></script>
+<!-- homePage页
+-->
+<script type="text/javascript" src="app/service/homePageService.js"></script>
+<script type="text/javascript" src="app/controller/homeController.js"></script>
+
+<!-- swiper -->
+<script type="text/javascript" src="app/directive/swiper/swiper.js"></script>
+<script type="text/javascript" src="app/service/swiperService.js"></script>
+<script type="text/javascript" src="app/controller/swiperController.js"></script>
+<!--message -->
+<script type="text/javascript" src="app/service/messageService.js"></script>
+<script type="text/javascript" src="app/controller/messageController.js"></script>
+<!-- 言职 -->
+<script type="text/javascript" src="app/service/speechHomeService.js"></script>
+<script type="text/javascript" src="app/controller/speechHomeController.js"></script>
+<!-- 我的 -->
+<script type="text/javascript" src="app/service/mineService.js"></script>
+<script type="text/javascript" src="app/controller/mineController.js"></script>
+<!-- 职位详情 -->
+<script type="text/javascript" src="app/service/jobDetailsService.js"></script>
+<script type="text/javascript" src="app/controller/jobDetailsController.js"></script>
+<!-- 热搜 -->
+<script type="text/javascript" src="app/service/hotSearchService.js"></script>
+<script type="text/javascript" src="app/controller/hotSearchController.js"></script>
+<!-- 搜索页面 -->
+<script type="text/javascript" src="app/service/searchPageService.js"></script>
+<script type="text/javascript" src="app/controller/searchPageController.js"></script>
+<!-- 搜索页面子页面的 所有 页面 -->
+<script type="text/javascript" src="app/service/searchpage_allService.js"></script>
+<script type="text/javascript" src="app/controller/searchpage_allController.js"></script>
+<!-- 搜索页面子页面的 职位筛选 -->
+<script type="text/javascript" src="app/service/filterService.js"></script>
+<script type="text/javascript" src="app/controller/filterContrller.js"></script>
+<!-- 搜索页面子页面  公司筛选 -->
+<script type="text/javascript" src="app/service/searchCompanyservice.js"></script>
+<script type="text/javascript" src="app/controller/searchCompanyController.js"></script>
+<!-- 刘云东添加从这里开始- -->
+<!-- 简历状态 -->
+<script type='text/javascript' src="app/controller/resume_status.js"></script>
+<!-- 职位邀请 -->
+<script type='text/javascript' src="app/controller/position_invite.js"></script><!--刘云东 添加结束 -->
+
+<!-- 苗志龙添加从这里开始 -->
+<!-- 言职主页 -->
+<script type="text/javascript" src="app/service/speechMainService.js"></script>
+<script type="text/javascript" src="app/controller/speechMainController.js"></script>
+
+<!-- 提问 askQueuestion -->
+<script type="text/javascript" src="app/service/askQuestionService.js"></script>
+<script type="text/javascript" src="app/controller/askQuestionController.js"></script>
+
+<!-- 言职精选 speechSift -->
+<script type="text/javascript" src="app/service/speechSiftService.js"></script>
+<script type="text/javascript" src="app/controller/speechSiftController.js"></script>
+
+<!-- 言职comment 板块 callback 模块 回答 speechCallbackAnswer -->
+<script type="text/javascript" src="app/service/speechCallbackAnswerService.js"></script>
+<script type="text/javascript" src="app/controller/speechCallbackAnswerController.js"></script>
+
+<!-- 戴莎莎部分 -->
+<!-- 言职：话题广场 -->
+<script type="text/javascript" src="app/service/topicSquareService.js"></script>
+<script type="text/javascript" src="app/controller/topicSquareController.js"></script>
+<script type="text/javascript" src="app/controller/smallTopicSquareController.js"></script>
+<!-- 言职：我的话题广场 -->
+<script type="text/javascript" src="app/controller/myTopicSquareController.js"></script>
+
+<!-- 言职社区通知 -->
+<script type="text/javascript" src="app/controller/communityController.js"></script>
+<body>
+	<div ui-view class="main"></div>
+	
+</body>
+</html>

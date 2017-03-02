@@ -1,0 +1,70 @@
+<div class="topicSquare">
+	<!-- 页头 -->
+	<header>
+		<a ui-sref="speechMain">
+			<div class="back"></div>
+		</a>
+		
+		<div class="qus">话题广场</div>
+		<a ui-sref="myTopicSquare">
+			<div class="mine"></div>
+		</a>
+	</header>
+	<!-- 导航 -->
+	<nav>
+		<ul class="nav">
+			<li ng-class="bg[1]" ng-click="isCurrent(1)" ui-sref="topicSquare.all">全部</li>
+			<li ng-class="bg[2]" ng-click="isCurrent(2)" ui-sref="topicSquare.company">公司</li>
+			<li ng-class="bg[3]" ng-click="isCurrent(3)" ui-sref="topicSquare.company">城市</li>
+			<li ng-class="bg[4]" ng-click="isCurrent(4)" ui-sref="topicSquare.company">职位</li>
+			<li ng-class="bg[5]" ng-click="isCurrent(5)" ui-sref="topicSquare.company">行业</li>
+			<li ng-class="bg[6]" ng-click="isCurrent(6)" ui-sref="topicSquare.company">职业话题</li>
+			<li ng-class="bg[7]" ng-click="isCurrent(7)" ui-sref="topicSquare.company">产品</li>
+
+		</ul>	
+	<!-- 添加 -->
+		<span  id="add" ng-click ="add()">
+			<span class="addImg"></span>
+		</span>
+	</nav>
+	<!-- 隐藏的盒子 -->
+	
+	<div class="hiddenBox" ng-show='isShow'>
+		<div class="close" ng-click="close()">×</div>
+		<div class="boxCnnt">
+			<div class="hidden">
+				<p class="hiddenTil">全部</p>
+				<p class="hiddenNum">1639个话题</p>
+			</div>
+			<div class="hidden">
+				<p class="hiddenTil">公司</p>
+				<p class="hiddenNum">1639个话题</p>
+			</div>
+			<div class="hidden">
+				<p class="hiddenTil">城市</p>
+				<p class="hiddenNum">1639个话题</p>
+			</div>
+			<div class="hidden">
+				<p class="hiddenTil">职位</p>
+				<p class="hiddenNum">1639个话题</p>
+			</div>
+			<div class="hidden">
+				<p class="hiddenTil">行业</p>
+				<p class="hiddenNum">1639个话题</p>
+			</div>
+			<div class="hidden">
+				<p class="hiddenTil">职业话题</p>
+				<p class="hiddenNum">1639个话题</p>
+			</div>
+			<div class="hidden hiddenLast">
+				<p class="hiddenTil">产品</p>
+				<p class="hiddenNum">1639个话题</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 主体 -->
+	<main ui-view>	
+
+	</main>
+</div>

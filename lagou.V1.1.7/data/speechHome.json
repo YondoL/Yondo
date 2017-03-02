@@ -1,0 +1,48 @@
+[
+{
+	"name": "运营",
+	"img": "public/images/yan_03.gif",
+	"imgClick": "public/images/zhi_03.gif"
+},
+{
+	"name": "PHP",
+	"img": "public/images/yan_07.gif",
+	"imgClick": "public/images/zhi_07.gif"
+},
+{
+	"name": "ios...",
+	"img": "public/images/yan_05.gif",
+	"imgClick": "public/images/zhi_05.gif"
+},
+{
+	"name": "移动互联网",
+	"img": "public/images/yan_12.gif",
+	"imgClick": "public/images/zhi_12.gif"
+},
+{
+	"name": "HR",
+	"img": "public/images/yan_13.gif",
+	"imgClick": "public/images/zhi_13.gif"
+},
+{
+	"name": "运营",
+	"img": "public/images/yan_03.gif",
+	"imgClick": "public/images/zhi_03.gif"
+},
+{
+	"name": "PHP",
+	"img": "public/images/yan_07.gif",
+	"imgClick": "public/images/zhi_07.gif"
+},
+{
+	"name": "ios...",
+	"img": "public/images/yan_05.gif",
+	"imgClick": "public/images/zhi_05.gif"
+},
+{
+	"name": "移动互联网",
+	"img": "public/images/yan_12.gif",
+	"imgClick": "public/images/zhi_12.gif"
+}
+
+]

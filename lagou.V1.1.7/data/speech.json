@@ -1,0 +1,315 @@
+{
+	"speechHome":[
+		{
+			"name": "运营",
+			"img": "public/images/yan_03.gif",
+			"imgClick": "public/images/zhi_03.gif",
+			"status": true
+		},
+		{
+			"name": "PHP",
+			"img": "public/images/yan_07.gif",
+			"imgClick": "public/images/zhi_07.gif",
+			"status": true
+		},
+		{
+			"name": "ios...",
+			"img": "public/images/yan_05.gif",
+			"imgClick": "public/images/zhi_05.gif",
+			"status": true
+		},
+		{
+			"name": "移动互联网",
+			"img": "public/images/yan_12.gif",
+			"imgClick": "public/images/zhi_12.gif",
+			"status": true
+		},
+		{
+			"name": "HR",
+			"img": "public/images/yan_13.gif",
+			"imgClick": "public/images/zhi_13.gif",
+			"status": true
+		},
+		{
+			"name": "运营",
+			"img": "public/images/yan_03.gif",
+			"imgClick": "public/images/zhi_03.gif",
+			"status": true
+		},
+		{
+			"name": "PHP",
+			"img": "public/images/yan_07.gif",
+			"imgClick": "public/images/zhi_07.gif",
+			"status": true
+		},
+		{
+			"name": "ios...",
+			"img": "public/images/yan_05.gif",
+			"imgClick": "public/images/zhi_05.gif",
+			"status": true
+		},
+		{
+			"name": "移动互联网",
+			"img": "public/images/yan_12.gif",
+			"imgClick": "public/images/zhi_12.gif",
+			"status": true
+		},
+		{
+			"name": "运营",
+			"img": "public/images/yan_03.gif",
+			"imgClick": "public/images/zhi_03.gif",
+			"status": true
+		},
+		{
+			"name": "PHP",
+			"img": "public/images/yan_07.gif",
+			"imgClick": "public/images/zhi_07.gif",
+			"status": true
+		},
+		{
+			"name": "ios...",
+			"img": "public/images/yan_05.gif",
+			"imgClick": "public/images/zhi_05.gif",
+			"status": true
+		},
+		{
+			"name": "移动互联网",
+			"img": "public/images/yan_12.gif",
+			"imgClick": "public/images/zhi_12.gif",
+			"status": true
+		},
+		{
+			"name": "HR",
+			"img": "public/images/yan_13.gif",
+			"imgClick": "public/images/zhi_13.gif",
+			"status": true
+		},
+		{
+			"name": "运营",
+			"img": "public/images/yan_03.gif",
+			"imgClick": "public/images/zhi_03.gif",
+			"status": true
+		},
+		{
+			"name": "PHP",
+			"img": "public/images/yan_07.gif",
+			"imgClick": "public/images/zhi_07.gif",
+			"status": true
+		},
+		{
+			"name": "ios...",
+			"img": "public/images/yan_05.gif",
+			"imgClick": "public/images/zhi_05.gif",
+			"status": true
+		},
+		{
+			"name": "移动互联网",
+			"img": "public/images/yan_12.gif",
+			"imgClick": "public/images/zhi_12.gif",
+			"status": true
+		},
+		{
+			"name": "运营",
+			"img": "public/images/yan_03.gif",
+			"imgClick": "public/images/zhi_03.gif",
+			"status": true
+		},
+		{
+			"name": "PHP",
+			"img": "public/images/yan_07.gif",
+			"imgClick": "public/images/zhi_07.gif",
+			"status": true
+		},
+		{
+			"name": "ios...",
+			"img": "public/images/yan_05.gif",
+			"imgClick": "public/images/zhi_05.gif",
+			"status": true
+		}
+	],
+	"speechMain":[{
+		"swiper":[
+			{
+				"name":"140000家实力酷公司等你! 下半...",
+				"img" : "public/images/speechMain_banner_3.JPG"
+			},
+			{
+				"name":"不服来辩",
+				"img" : "public/images/speechMain_banner_2.JPG"
+			},
+			{
+				"name":"我要业术有专攻，也要花容月貌",
+				"img" : "public/images/speechMain_banner_1.JPG"
+			}
+		],
+		"comment":[
+			{
+				"from": "PHP",
+				"question": "学历在互联网行业重不重要？想换工作，学历硬伤",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "ZeaMays",
+				"position": "市场经理",
+				"date": "刚刚刷新",
+				"answer": "由于现在程序猿培训机构越来越多，势头越来越大，所以开发者也是越来越多，所以在下不建议你辞。由于现在程序猿培训机构越来越多，势头越来越大，所以开发者也是越来越多，所以在下不建议你辞。由于现在程序猿培训机构越来越多，势头越来越大，所以开发者也是越来越多，所以在下不建议你辞。由于现在程序猿培训机构越来越多，势头越来越大，所以开发者也是越来越多，所以在下不建议你辞。由于现在程序猿培训机构越来越多，势头越来越大，所以开发者也是越来越多，所以在下不建议你辞。由于现在程序猿培训机构越来越多，势头越来越大，所以开发者也是越来越多，所以在下不建议你辞",
+				"praise": 35,
+				"tread": 9
+			},
+			{
+				"from": "北京",
+				"question": "如何和领导提倡涨工资？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "黄丽彬",
+				"position": "高级需求分析师...",
+				"date": "刚刚刷新",
+				"answer": "个人觉得，要和领导提倡涨工资，要先自我评估，不要看能力，看你做事的结果。许多人，老日前，我国新一代大型运载火箭——长征五号在海南文昌航天发射场顺利完成了从总装测试厂房到发射塔架的垂直转运。现在，“大火箭”首飞已经进入了倒计时阶段，各项准备工作已经就绪。长征五号的芯级，也就是中间的主体部分直径达5米，比一般的火箭主体直径大了50%，体格壮实，绰号“胖五”。这次发射任务主要是检验“胖五”设计的正确性、飞行的可靠性，以及发射场和火箭之间的匹配性。作为运载火箭的“重中之重”，“胖五”究竟意味着什么呢？",
+				"praise": 85,
+				"tread": 8
+			},
+			{
+				"from": "北京",
+				"question": "做前端的，利用业余时间找个兼职合理吗？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "米衙",
+				"position": "专栏作家/首席...",
+				"date": "刚刚刷新",
+				"answer": "我不认为是个好主意。提高自己是最好的投资。你去兼职，只能越努力越贫困。也许日前，我国新一代大型运载火箭——长征五号在海南文昌航天发射场顺利完成了从总装测试厂房到发射塔架的垂直转运。现在，“大火箭”首飞已经进入了倒计时阶段，各项准备工作已经就绪。长征五号的芯级，也就是中间的主体部分直径达5米，比一般的火箭主体直径大了50%，体格壮实，绰号“胖五”。这次发射任务主要是检验“胖五”设计的正确性、飞行的可靠性，以及发射场和火箭之间的匹配性。作为运载火箭的“重中之重”，“胖五”究竟意味着什么呢？",
+				"praise": 83,
+				"tread": 4
+			},
+			{
+				"from": "北京",
+				"question": "javaweb工作两年半了应该达到什么水平？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "张阿姨",
+				"position": "bug挖掘者",
+				"date": "7月29日",
+				"answer": "你翻翻拉拉勾里的招聘Java的工作要求，挑3-5年的跟自己对比；基本上吧，日前，我国新一代大型运载火箭——长征五号在海南文昌航天发射场顺利完成了从总装测试厂房到发射塔架的垂直转运。现在，“大火箭”首飞已经进入了倒计时阶段，各项准备工作已经就绪。长征五号的芯级，也就是中间的主体部分直径达5米，比一般的火箭主体直径大了50%，体格壮实，绰号“胖五”。这次发射任务主要是检验“胖五”设计的正确性、飞行的可靠性，以及发射场和火箭之间的匹配性。作为运载火箭的“重中之重”，“胖五”究竟意味着什么呢？",
+				"praise": 5,
+				"tread": 1
+			},
+			{
+				"from": "北京",
+				"question": "在宜信工作是个什么体验？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "匿名用户",
+				"position": "",
+				"date": "6月24日",
+				"answer": "亲，真的是看在那个部门，宜信35+个部门，每个部门都差别蛮大的~~电视里她是在，刚开始谈的都挺好的，当我问起薪资待遇的时候人事和部门领导都说谢谢，都要跟对方协商，才能决定，感觉有点敷衍。",
+				"praise": 2,
+				"tread": 1
+			},
+			{
+				"from": "HR",
+				"question": "培训的出路、价值在哪里？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "徐浩",
+				"position": "课程研发培训讲师",
+				"date": "6月17日",
+				"answer": "一、我觉得这个问题需要去分析不来的同学原因。时间:培训时间的选择首先要考量的组织人才梯队建设越差、组织稳定性越低、培训的价值就相应降低，在一些没有人才发展的规划的中小企业，培训最终沦为边缘化模块。这些中小企业，更多的注重于不得不做的事情中，比如薪酬发放、人员招退工等。对他们来说，培训做什么，怎么做、做成什么，多很难有同意的标准。而且培训最终产生的价值很难量化衡量，所以慢慢的就边缘化。",
+				"praise": 6,
+				"tread": 0
+			},
+			{
+				"from": "北京",
+				"question": "社区运营和社群运营是一个概念吗？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "王叶洲",
+				"position": "社区运营",
+				"date": "6月2日",
+				"answer": "有共同点，但不完全一样的，都是“以人为本”围绕产品、用户的角度展开。社区:成员都住在一个小区，一帮人做同一件事。以豆瓣、知乎为例，产品特征以内容为主导，高效的产出，满足用户对内容的需求;社群:虽然也也是同住一个小区，但是一群人做着不同的事情。以QQ群微信群为例，产品特征以语言交流为主导，气氛活跃，成员间互动频率高，内容比较分散而且质量和社区相比较低。",
+				"praise": 11,
+				"tread": 0
+			},
+			{
+				"from": "移动互联网",
+				"question": "应聘互联网公司的简历应该是怎样的？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "卡卡机吗",
+				"position": "传说中的心机套",
+				"date": "6月2日",
+				"answer": "作为一枚HR，经常面试别人，也经常被面试。如何写好简历其实是很多小盆友纠结的问题。首先根据几个原则1、我是谁;2、我做过什么;3、我会做什么;4、我想做什么;前两个问题主要自我反思，发现自己的优势和不足，后两个问题明确自己的目标和方向。就像你饿了去吃饭，首先要知道自己能吃什么，免得吃到过敏的食物，再是了解想吃什么，找到自己想吃的餐厅。再者，除非你是设计师，否则你的简历不要太花太花不要太花！在花里胡哨的图案及配色里找文字，HR也是比较反感的哦。作为一枚HR，经常面试别人，也经常被面试。如何写好简历其实是很多小盆友纠结的问题。首先根据几个原则1、我是谁;2、我做过什么;3、我会做什么;4、我想做什么;前两个问题主要自我反思，发现自己的优势和不足，后两个问题明确自己的目标和方向。就像你饿了去吃饭，首先要知道自己能吃什么，免得吃到过敏的食物，再是了解想吃什么，找到自己想吃的餐厅。再者，除非你是设计师，否则你的简历不要太花太花不要太花！在花里胡哨的图案及配色里找文字，HR也是比较反感的哦。",
+				"praise": 41,
+				"tread": 0
+			},
+			{
+				"from": "职业发展",
+				"question": "如何再跳槽前客观的评价自己的身价？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "Auroa Bo...",
+				"position": "HR,俗称不干",
+				"date": "6月3日",
+				"answer": "大家说了那么多，你真正衡量出你的价值了吗？给你说一个简单有效的方法。打开招聘网站，找到你心仪的岗位，看看薪资多少，任职资格是什么。想想这个岗位你那些做不到回头看看你能做到的岗位，你能拿多少钱。",
+				"praise": 58,
+				"tread": 1
+			},
+			{
+				"from": "职场",
+				"question": "怎么看带'我们是创业型公司，所以大家都要加班'？",
+				"head": "public/images/speechMain_commentCallback_head1.jpg",
+				"name": "python",
+				"position": "数据工程师",
+				"date": "6月2日",
+				"answer": "《资本论》说过了，榨取剩余价值，是资本家的使命。996固然创造了一个时代，但是现在也面临了诸多压力，导致某米市场份额下滑，压力山大。但是话又说回来，没有加班文化，就没有互联网的繁荣，这里的人傻钱多，都是累出来的。。所以有很多想去国企养老，回家当公务员的，总之不适应加班文化的大有人在。但是如果无止境的加班，是该考虑换一换地方了。年轻为了钱可以拼一拼，上了岁数就算了吧。身体健康比啥多重要。当然鞭策自己成为超级牛人，也是一种不错的选择。",
+				"praise": 13,
+				"tread": 2
+			}
+		],
+		"swiper2":[
+			{
+				"name":"互联网金融",
+				"img" : "public/images/OKCoin.png",
+				"attentionNum": 43,
+				"questionNum" : 5
+			},
+			{
+				"name":"电子商务",
+				"img" : "public/images/aiqiyi.png",
+				"attentionNum": 40,
+				"questionNum" : 10
+			},
+			{
+				"name":"薪酬福利",
+				"img" : "public/images/jiuxian.png",
+				"attentionNum": 67,
+				"questionNum" : 40
+			},
+			{
+				"name":"前端",
+				"img" : "public/images/jyall.png",
+				"attentionNum": 37,
+				"questionNum" : 38
+			},
+			{
+				"name":"Andr...",
+				"img" : "public/images/kaitaiming.png",
+				"attentionNum": 24,
+				"questionNum" : 29
+			},
+			{
+				"name":"深圳",
+				"img" : "public/images/limi.png",
+				"attentionNum": 28,
+				"questionNum" : 6
+			},
+			{
+				"name":"职业选择",
+				"img" : "public/images/mnow.png",
+				"attentionNum": 58,
+				"questionNum" : 94
+			},
+			{
+				"name":"北京",
+				"img" : "public/images/momang.png",
+				"attentionNum": 40,
+				"questionNum" : 73
+			}
+		]
+	}]	
+}
+
+
+
+
+
+
+

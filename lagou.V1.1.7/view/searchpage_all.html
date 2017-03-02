@@ -1,0 +1,12 @@
+<div class="areaSelect">
+		<div class="selectLeft">
+			<li>全北京</li>
+			<li ng-repeat='item in areaList1' ng-click="isSeleked(item)" ng-class="{true:'classC'}[item.status]">{{item.area}}</li>
+		</div>
+		<div class="selectRight">
+			<li ng-repeat="item in areaList2" ng-click="isSeleked2(item)" ng-class="{true:'classD',false:'classE'}[item.status]">{{item.name}}</li>
+		</div>
+		<div class="changeCity">
+			<img src="public/images/homeAraeSelect1.gif" alt=""><span>切换城市</span>
+		</div>
+</div>	

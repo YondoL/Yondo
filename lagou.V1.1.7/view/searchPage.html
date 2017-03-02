@@ -1,0 +1,50 @@
+	<div class="searchPage">
+		<header>
+			<div class="place">
+				<span></span>
+				<p><a ui-sref = "hotSearch">返回</a></p>
+			</div>
+            <div class="search">
+            	<span></span>
+            	<input type="text" placeholder = "搜索职位/公司/商区">
+            </div>
+		</header>
+	    <section>
+	      <nav>
+	      	  <div ng-click = "changeImg($event,'all')">
+	      	  	 <a ui-sref = "searchPage.all"><p>全北京</p></a>
+	      	  	 <span></span>
+	      	  </div>
+	      	  <div ng-click = "changeImg($event,'position')">
+	      	  	 <a ui-sref = "searchPage.position"><p>职位筛选</p></a>
+	      	  	 <span></span>
+	      	  </div>
+	      	  <div ng-click = "changeImg($event,'company')">
+	      	  	 <a ui-sref = "searchPage.company"><p>公司筛选</p></a>
+	      	  	 <span></span>
+	      	  </div>
+	      </nav>
+          <div ui-view class="areaWrap" ng-hide="__click">
+          	
+          </div>
+	      <div class="searchContent">
+	<a ng-repeat = "company in companyList" ui-sref="jobDetails" ng-click="skip(company)">
+  		<div class="List1 list">
+	  		<div class="PositionShowLeft">
+	  			<img src="{{company.companyLogo}}" alt="" class="PositionShow_img">
+	  		</div>
+	  		<div class="PositionShowRight">
+	  			<p class="list1" >
+	  			     {{company.positionName}}
+		  			<img src="public/images/homePage_1.gif" alt="">
+		  			<span ng-bind = "company.salary"></span>
+	  			</p>
+	  			<p class="list2" ng-bind = "company.companyFullName"></p>
+	  			<p class="list3" ng-bind = "company.education + ' ' +  company.workYear + ' ' + company.education"><span ng-bind = "company.createTime"></span></p>
+	  			<p class="list4" ng-bind = "company.financeStage + ' | ' +  company.companySize + ' | ' + company.industryField"></p>
+	  		</div>
+  		</div>
+    </a>
+	      </div>
+	    </section>
+	</div>

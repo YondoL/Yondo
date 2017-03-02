@@ -1,0 +1,61 @@
+.searchContent {
+	overflow: auto;
+	position: absolute;
+	top: 4.31rem;
+}
+.searchContent .list{
+	padding:.4rem 0rem 0 .4rem;
+	display: flex;	
+}
+	/*职位展示的左边*/
+.searchContent .PositionShowLeft{
+	width: 20%;
+	margin-right: .4rem;
+}
+.searchContent .PositionShow_img{
+	width: 100%;
+}
+	/*职位展示的右边*/
+.searchContent .PositionShowRight{
+	border-bottom:1px solid #d8d8d8;
+	flex:1;
+	padding-right:.5rem; 
+}
+.searchContent .PositionShowRight p{
+	position: relative;
+	margin-bottom:.2rem;
+	padding-left:.3rem; 
+}
+.searchContent .PositionShowRight .list1{
+	font-size: .7rem;
+	font-weight: bold;
+}
+.searchContent .PositionShowRight .list1 img{
+	width: .9rem;
+	margin-left: .2rem;
+	margin-bottom:-.22rem;
+}
+.searchContent .PositionShowRight .list1 span{
+	color: #ff7452;
+	font-size: .55rem;
+	font-weight: normal;
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+}
+.searchContent .PositionShowRight .list2{
+	font-size: .6rem;
+}
+.searchContent .PositionShowRight .list3{
+	font-size: .6rem;
+	color: #d8d8d8;
+}
+.searchContent .PositionShowRight .list3 span{
+	position: absolute;
+	right: 0;
+}
+.searchContent .PositionShowRight .list4{
+	font-size: .6rem;
+	color: #d8d8d8;
+	padding-bottom:.4rem; 
+}

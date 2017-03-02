@@ -1,0 +1,34 @@
+/*提个问题*/
+
+/*基本配置项*/
+
+.askAQuestion{width: 100%;height: 100vh;background-color:#EBEBEC;overflow: hidden;}
+/*页头*/
+.askAQuestion header{height:2.2rem;border-bottom:1px solid #A4A4A5;padding: 0 0.925rem;display: flex;justify-content:space-between;font-size: 0.85rem;align-items:center;background-color:#F7F7F7;}
+.askAQuestion .close{width: 0.75rem;height: 0.75rem;background: url(../images/lagoIMGIMG_0285_03.gif);background-size: 0.75rem;}
+.askAQuestion .qus{font-weight: bold;}
+.askAQuestion .publish{
+	color: #8c8282;
+}
+/*主体*/
+
+/*写下你的问题（必填）*/
+.askAQuestion .question{background-color: white;padding-left:0.75rem;color: #D4D4D4; }
+.askAQuestion input{outline: none;border:none;width: 100%;}
+.askAQuestion .q1{height: 2.475rem;border-bottom: 1px solid #D4D4D4;}
+/*增加问题补充*/
+.askAQuestion .q2{outline: none;border:none;width: 100%;height: 9.95rem;padding-top:0.75rem;padding-right:0.75rem;text-align:top;}
+/*所属话题*/
+.askAQuestion .topic{height: 2.475rem;border-bottom: 1px solid #D4D4D4;border-bottom: 1px solid #D4D4D4;padding-left:0.75rem;background-color: white;margin-top:0.5rem;font-size: 0.85rem; padding-right:0.75rem;display: flex;justify-content:space-between;align-items:center;}
+.askAQuestion .topic .t2{display: inline-block;width: 0.4rem;height:0.65rem;background: url(../images/lagoIMGIMG_0285_04.gif) no-repeat;background-size:0.4rem 0.65rem;}
+/*匿名 规则*/
+.askAQuestion .rules{height: 2.475rem;padding-left:0.75rem;background-color: white;font-size: 0.6rem; padding-right:0.75rem;display: flex;justify-content:space-between;align-items:center;}
+.askAQuestion .r1{}
+.askAQuestion .r1 .rulesRadio{display: inline-block;width: 0.9rem;height: 0.9rem;border:1px solid #0BB68F;border-radius: 50%;vertical-align: middle;margin-right: 0.3rem;box-sizing:border-box;}
+.askAQuestion .r2_r{color: #0BB68F;}
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+<div class="jobDetails">
+		<header>
+			<a href="javascript:history.go(-1)">
+				<div class="left"></div>
+			</a>
+			<p>职位详情</p>
+			<div class="share">
+				<span></span>
+				<span></span>
+			</div>
+		</header>
+	    <section>
+	    <div class="condition">
+	    
+	    	<div>
+	        	<h1 ng-bind = "currentCompany.positionName"></h1>
+	        	<p>【{{currentCompany.salary}}】</p>
+	        </div>
+	        <ul>
+	        	<li><span></span>{{currentCompany.city}}</li>
+	        	<li><span></span ng-bind = "currentCompany.workYear"></li>
+	        	<li><span></span>{{currentCompany.education}}</li>
+	        	<li><span></span>{{currentCompany.jobNature}}</li>
+	        </ul>
+	        <p><span>职位诱惑：</span>{{currentCompany.positionAdvantage}}</p>
+	    </div>
+	    <dl>
+	    	<dt>
+	    		<img src="{{currentCompany.companyLogo}}">
+	    	</dt>
+	    	<dd> 
+	    	    <div>
+                <h1 ng-bind="currentCompany.companyFullName"></h1>
+                <p ng-bind = "currentCompany.financeStage + ' | ' +  currentCompany.companySize + ' | ' + currentCompany.industryField">|15-50人|移动互联网</p>
+                <p>暂未收到面试</p>
+	    		</div>
+	    		<p>
+	    			<span></span>
+	    		</p>
+	    	</dd>
+	    </dl> 
+	    <div class="describe">
+	    	 <div class="header">
+	    	 	<div></div>
+	    	 	<p>职位描述</p>
+	    	 </div>
+	    	 <div class="describeContent">
+		    	<div class="label">
+		    		web前端开发
+		    	</div>
+	       </div>
+	       <div class="characterDescribe">
+	       	    <h1>要求:</h1>
+	       	    <ul>
+	       	    	<li>
+	       	    	   <span>1.</span>
+	       	    	   熟悉移动端页面布置和手机尺寸适配
+	       	    	</li>
+	       	    	<li>
+	       	    	   <span>2.</span>
+	       	    	   熟悉Html5，css3，Javascript，会使用框架的优先，能开发前端组建和基础框架者优先;
+	       	    	</li>
+	       	    	<li>
+	       	    	   <span>3.</span>
+	       	    	   熟悉后端语言PHP优先
+	       	    	</li>
+	       	    	<li>
+	       	    	   <span>4.</span>
+	       	    	   能解决个主流浏览器IE、Firefox、Chrome等常见问题、兼容问题
+	       	    	</li>
+	       	    	<li>
+	       	    	    <span>5.</span>
+	       	    	    最主要的就是认真好学，平常没事喜欢钻研;
+	       	    	</li>
+	       	    </ul>
+	       	    <p>上班时间: 9:00-18:00,午休1个小时,周末双休,无加班。法定节假日休。</p>
+	       </div>
+	    </div>  
+	    <div class="address"> 
+              <div>
+              	 <div></div>
+              	 <p>工作地址</p>
+              	 <span>百善</span>
+              </div>
+              <p>百善镇良各庄99号</p>
+	    </div>
+        <div class="publish">
+       	   <div class="title">
+       	   	   <span>
+       	   	   	   <img src="public/images/job_publish.png">
+       	   	   </span>
+       	   	   <h1>职位发布者</h1>
+       	   </div>
+       	   <div class = "publishPerson">
+       	   	   <dl>
+       	   	   	  <dt>
+       	   	   	  	 <img src="public/images/momang.png" alt="">
+       	   	   	  </dt>
+       	   	   	  <dd>
+       	   	   	  	 <p>zhaopin</p>
+       	   	   	  	 <p>行政人事经理</p>
+       	   	   	  	 <div>
+       	   	   	  	 	<span>
+       	   	   	  	 		<img src="public/images/back.png" alt="...">
+       	   	   	  	 	</span>
+       	   	   	  	 	<p><span>最近活跃:</span> 8小时前</p>
+       	   	   	  	 </div>
+       	   	   	  </dd>
+       	   	   </dl>
+       	   	   <div>
+       	   	   	  <p>简历处理蜗牛爬</p>
+       	   	   	  <p>下午活跃</p>
+       	   	   </div>
+       	   </div>
+        </div>
+	    </section>
+	    <footer>
+	    	<div><a>发送简历</a></div>
+	    	<div><a>和TA私聊</a></div>
+	    </footer>
+</div>

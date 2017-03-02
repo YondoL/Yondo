@@ -1,0 +1,33 @@
+<!-- 容器 -->
+	<div class="speechHome">
+	<!-- 头部 -->
+		<header>
+			<p></p>
+		</header>
+	<!-- 主体 -->
+		<main>
+		<!-- 感兴趣的话题 -->
+			<p class="topic">
+				<span></span>
+				<i>告诉我们你感兴趣的话题</i>
+				<span></span>
+			</p>
+		<!--广告栏——轮播图-->
+		    <div class="swiper-container">
+		        <div class="swiper-wrapper">
+		         	<div class="swiper-slide" ng-repeat="arr in arrs">
+			        	<div class="swiper-div" ng-repeat = "ar in arr" ng-click="imgChange(ar)">
+			        		<img src={{ar.status?ar.img:ar.imgClick}} alt="" class="images">
+			        		<p>{{ar.name}}</p>
+			        	</div>
+			        </div>
+		        </div>
+		        <!-- 如果需要分页器 -->
+		        <div class="swiper-pagination"></div>
+		    </div>	
+		<!-- 至少选三个话题 进入社区community -->
+		<a ui-sref="speechMain" class="community"  ng-click="_go($event)">{{go}}</a>
+
+		</main>
+		<my-footer></my-footer>
+	</div>

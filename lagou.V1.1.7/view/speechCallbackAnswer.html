@@ -1,0 +1,33 @@
+<!-- 言职精选 -->
+<div class="speechCallbackAnswer">
+	<!-- 页头 -->
+	<header>
+		<a href="javascript:history.go(-1)" class="close"></a>
+		<div class="qus"></div>
+		<a href="" class="share">. . .</a>
+	</header>
+	<!-- 主体 -->
+	<main>
+		<!-- 提问 -->
+		<nav><a href="">{{arr.question}}</a></nav>
+		<!-- 回复信息 callback -->
+		<div class="callback">
+			<div class="callbackInformation">
+				<img src="{{arr.head}}" class="callbacHhead">
+				<span class="callbackName">{{arr.name}}</span>
+				<span class="position">{{arr.position}}</span>
+				<span class="attentionCallback">关注</span>
+			</div>
+			<p class="answer">
+				{{arr.answer}}
+			</p>
+			<p class="date">{{arr.date}}</p>
+		</div>	
+		<!-- 评论 点赞 -->
+		<div class="pt">
+			<span class="tread">{{arr.tread}}</span>
+			<span class="praise">{{arr.praise}}</span>		
+		</div>
+	</main>
+</div>
+

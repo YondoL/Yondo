@@ -1,0 +1,66 @@
+/*话题广场*/
+
+/*基本配置项*/
+*{margin :0;padding: 0;}
+html{font-size:20px;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+.topicSquare{width: 100%;height: 100vh;}
+/*页头*/
+.topicSquare header{height:2.2rem;border-bottom:1px solid #A4A4A5;padding: 0 0.925rem;display: flex;justify-content:space-between;font-size: 0.85rem;align-items:center;background-color:#F7F7F7;position: fixed;top: 0;width: 100%;box-sizing:border-box;z-index: 3;}
+.topicSquare .back{width: 0.525rem;height:1rem;background: url(../images/lagoIMGIMG_0286_03.gif);background-size: 0.525rem 1rem;}
+.topicSquare .mine{width: 0.8rem;height: 0.925rem;background: url(../images/lagoIMGIMG_0286_06.gif);background-size:  0.8rem 0.925rem;}
+
+/*导航*/
+.topicSquare nav{height:1.95rem;border-bottom: 1px solid #CCCCCC;overflow-x:auto;position: fixed;top: 2.2rem;background-color: white;z-index: 2;}
+.topicSquare .nav{height:1.95rem;width: 145%;}
+.topicSquare .nav li{height:1.85rem;line-height: 1.95rem;text-align: center;padding: 0 1.175rem;font-size:0.5rem;float: left;color:#9F9F9F;}
+
+/*添加   + */
+.topicSquare #add{display: inline-block;width:1.8rem;height: 1.8rem;position: fixed;right:0.2rem;background-color: white;top:2.3rem;opacity: 0.8;z-index: 4;text-align: center;line-height: 1.8rem;}
+.topicSquare #add .addImg{display: inline-block;width:0.725rem;height: 0.725rem;background: url(../images/lagoIMGIMG_0286_11.gif);background-size: 0.725rem;}
+
+/*点击改变样式*/
+.topicSquare .nav .current{color:#00B38A;border-bottom: 2px solid #00B38A; }
+
+/*主体*/
+.topicSquare main{margin-top: 4.2rem;}
+
+	/*产品*/
+.topicSquare section{padding-left:0.75rem;height: 4rem;box-sizing:border-box;padding-right: 0;padding-left: 0.75rem;padding-top: 0.75rem;}
+	/*图片*/
+.topicSquare .proImg {width:2.5rem;height: 2.5rem;border-radius: 50%;margin-right:0.77rem;float: left;overflow: hidden;}
+.topicSquare .proImg img{width: 100%;height: 100%;}
+	/*内容*/
+.topicSquare .cnnt{float: left;width: 77%;border-bottom: 1px solid #E8E9EB;float: right;position: relative;height: 3.25rem;font-size: 0.65rem;}
+.topicSquare .cnnt_1{margin-bottom: 0.6rem;}
+.topicSquare .cnnt_2{display: inline-block;background: url(../images/lagoIMGIMG_0286_00_06.gif);background-size:0.65rem 0.55rem;width: 0.65rem;height: 0.55rem;}
+.topicSquare .cnnt_3,.topicSquare .cnnt_5{color: #CCCCCC;font-size: 0.8rem;}
+.topicSquare .cnnt_3{margin-right: 0.4rem;}
+.topicSquare .cnnt_4{display: inline-block;background: url(../images/lagoIMGIMG_0286_00_03.gif);background-size:0.675rem 0.6rem;width: 0.675rem;height: 0.6rem;}
+
+	/*关注*/
+.topicSquare .false{width:3.75rem;height:1.45rem;border-radius: 25px;background-color:#00B38A;line-height: 1.45rem;text-align: center;color: white;  font-size: 0.6rem;position: absolute;right: 1rem;top: 0.5rem;}
+.topicSquare .true{width:3.75rem;height:1.45rem;border-radius: 25px;line-height: 1.45rem;text-align: center;color:#CECECE;  font-size: 0.6rem;position: absolute;right: 1rem;top: 0.5rem;border: 1px solid #CECECE;}
+/*隐藏的盒子*/
+.topicSquare .hiddenBox{position: fixed;top: 0;height:14.75rem;width: 100vh;background-color: white;padding-top: 2.2rem;box-sizing:border-box;height: 100vh;z-index: 2;background-color: rgba(0,0,0,.2);width: 100%;}
+.topicSquare .hiddenBox .boxCnnt{height: 70%;background: white;width: 100%;display: flex;justify-content:space-around;flex-flow:wrap;}
+.topicSquare .hiddenBox .boxCnnt .hidden{width: 33%;text-align: center;height: 33%;box-sizing:border-box;padding-top: 3rem;}
+.topicSquare .hiddenBox .boxCnnt .hiddenTil{color:#00B38A;font-size: 0.95rem}
+
+.topicSquare .hiddenBox .boxCnnt .hiddenNum{color:#999999;font-size: 0.75rem;line-height: 2rem; }
+/*关闭按钮*/
+.topicSquare .hiddenBox .close{position: fixed;top:2.5rem;z-index: 5;font-size: 1rem;right: 1rem;color:#999999;}
+
+
+
+
+
+
+
+
+
+
+
+
